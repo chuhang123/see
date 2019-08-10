@@ -1,0 +1,1 @@
+QTags.addButton( 'loginview', 'loginview', "<!--loginview start-->", "<!--loginview end-->" );

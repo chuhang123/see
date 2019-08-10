@@ -1,0 +1,1459 @@
+0000.012 (0) Opened log file at time: Fri, 21 Jun 2019 09:12:52 +0000 on http://ai.hebut.edu.cn
+0000.022 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 5.2.2 PHP: 5.6.31 (fpm-fcgi, Linux HEBUT-SCSE-WWW 2.6.32-754.9.1.el6.x86_64 #1 SMP Thu Dec 6 08:02:15 UTC 2018 x86_64) MySQL: 5.7.24 WPLANG: zh_CN Server: nginx/1.14.2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 47.2M | 48.8M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.026 (0) Free space on disk containing Updraft's temporary directory: 12722.4 MB
+0000.030 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.033 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.077 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1560503583, seconds_ago=604789)
+0000.089 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2019-06-21 09:12:52
+0000.097 (0) Semaphore (fd, wp_options) reset to 1
+0000.102 (0) Set semaphore last lock (fd) time to 2019-06-21 09:12:52
+0000.107 (0) Semaphore lock (fd) complete
+0000.118 (0) Backup run: resumption=0, nonce=7e7c5589afe4, file_nonce=7e7c5589afe4 begun at=1561108372 (0s ago), job type=backup
+0000.138 (0) Scheduling a resumption (1) after 300 seconds (1561108672) in case this run gets aborted
+0000.174 (0) Checking if we have a zip executable available
+0000.184 (0) Testing: /usr/bin/zip
+0000.259 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.265 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.276 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.279 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.281 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.290 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.303 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.334 (0) Working binary zip found: /usr/bin/zip
+0000.351 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.362 (0) Creation of backups of directories: beginning
+0000.397 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.107 (0) Total entities for the zip file: 936 directories, 5614 files (0 skipped as non-modified), 84.9 MB
+0001.132 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.142 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.151 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.161 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.171 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.173 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.1 MB, 5614 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.278 (0) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: size is now: 3.50 MB
+0002.286 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 600 files added (on-disk size: 3591.6 KB)
+0002.296 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 700 files added (on-disk size: 3591.6 KB)
+0002.305 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 800 files added (on-disk size: 3591.6 KB)
+0002.314 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 900 files added (on-disk size: 3591.6 KB)
+0002.324 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 1000 files added (on-disk size: 3591.6 KB)
+0002.326 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.3 MB, 5614 files batched, 501 (1002) added so far); re-opening (prior size: 3591.6 KB)
+0004.332 (0) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: size is now: 10.40 MB
+0004.347 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 1100 files added (on-disk size: 10634.5 KB)
+0004.353 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 1200 files added (on-disk size: 10634.5 KB)
+0004.358 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 1300 files added (on-disk size: 10634.5 KB)
+0004.364 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 1400 files added (on-disk size: 10634.5 KB)
+0004.373 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 1500 files added (on-disk size: 10634.5 KB)
+0004.376 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.1 MB, 5614 files batched, 501 (1503) added so far); re-opening (prior size: 10634.5 KB)
+0005.387 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 1600 files added (on-disk size: 12726.2 KB)
+0005.394 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 1700 files added (on-disk size: 12726.2 KB)
+0005.401 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 1800 files added (on-disk size: 12726.2 KB)
+0005.410 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 1900 files added (on-disk size: 12726.2 KB)
+0005.417 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 2000 files added (on-disk size: 12726.2 KB)
+0005.420 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 MB, 5614 files batched, 501 (2004) added so far); re-opening (prior size: 12726.2 KB)
+0006.127 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 2100 files added (on-disk size: 13982.5 KB)
+0006.134 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 2200 files added (on-disk size: 13982.5 KB)
+0006.140 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 2300 files added (on-disk size: 13982.5 KB)
+0006.147 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 2400 files added (on-disk size: 13982.5 KB)
+0006.156 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 2500 files added (on-disk size: 13982.5 KB)
+0006.159 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.9 MB, 5614 files batched, 501 (2505) added so far); re-opening (prior size: 13982.5 KB)
+0006.852 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 2600 files added (on-disk size: 15350.5 KB)
+0006.870 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 2700 files added (on-disk size: 15350.5 KB)
+0006.876 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 2800 files added (on-disk size: 15350.5 KB)
+0006.882 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 2900 files added (on-disk size: 15350.5 KB)
+0006.897 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 3000 files added (on-disk size: 15350.5 KB)
+0006.900 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.3 MB, 5614 files batched, 501 (3006) added so far); re-opening (prior size: 15350.5 KB)
+0008.577 (0) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: size is now: 19.20 MB
+0008.595 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 3100 files added (on-disk size: 19686.5 KB)
+0008.601 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 3200 files added (on-disk size: 19686.5 KB)
+0008.607 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 3300 files added (on-disk size: 19686.5 KB)
+0008.612 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 3400 files added (on-disk size: 19686.5 KB)
+0008.618 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 3500 files added (on-disk size: 19686.5 KB)
+0008.621 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.5 MB, 5614 files batched, 501 (3507) added so far); re-opening (prior size: 19686.5 KB)
+0009.266 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 3600 files added (on-disk size: 20547.4 KB)
+0009.272 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 3700 files added (on-disk size: 20547.4 KB)
+0009.278 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 3800 files added (on-disk size: 20547.4 KB)
+0009.295 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 3900 files added (on-disk size: 20547.4 KB)
+0009.301 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 4000 files added (on-disk size: 20547.4 KB)
+0009.304 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.7 MB, 5614 files batched, 501 (4008) added so far); re-opening (prior size: 20547.4 KB)
+0010.575 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 4100 files added (on-disk size: 24227.3 KB)
+0010.585 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 4200 files added (on-disk size: 24227.3 KB)
+0010.591 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 4300 files added (on-disk size: 24227.3 KB)
+0010.597 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 4400 files added (on-disk size: 24227.3 KB)
+0010.606 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 4500 files added (on-disk size: 24227.3 KB)
+0010.609 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 5614 files batched, 501 (4509) added so far); re-opening (prior size: 24227.3 KB)
+0011.178 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 4600 files added (on-disk size: 25183.5 KB)
+0011.184 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 4700 files added (on-disk size: 25183.5 KB)
+0011.191 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 4800 files added (on-disk size: 25183.5 KB)
+0011.204 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 4900 files added (on-disk size: 25183.5 KB)
+0011.211 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 5000 files added (on-disk size: 25183.5 KB)
+0011.214 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.8 MB, 5614 files batched, 501 (5010) added so far); re-opening (prior size: 25183.5 KB)
+0011.682 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 5100 files added (on-disk size: 25925.1 KB)
+0011.688 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 5200 files added (on-disk size: 25925.1 KB)
+0011.694 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 5300 files added (on-disk size: 25925.1 KB)
+0011.701 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 5400 files added (on-disk size: 25925.1 KB)
+0011.707 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 5500 files added (on-disk size: 25925.1 KB)
+0011.710 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (18.9 MB, 5614 files batched, 501 (5511) added so far); re-opening (prior size: 25925.1 KB)
+0013.674 (0) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: size is now: 31.20 MB
+0013.691 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip.tmp: 5600 files added (on-disk size: 31900.6 KB)
+0014.420 (0) Created plugins zip (0) - 32434.8 KB in 14 s (2313.6 KB/s) (sha1: 1c956f9bc5e35a5082ee8aec04b5ecc93e8ff756, sha256: ca2948b890aa7c7f87c05d4c4d5b9e3e5098eeaa76ccb0d48c3d415cd906a123)
+0014.430 (0) Beginning creation of dump of themes (split every: 400 MB)
+0015.168 (0) Total entities for the zip file: 785 directories, 10332 files (0 skipped as non-modified), 101.1 MB
+0015.199 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0015.205 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0015.217 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0015.222 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0015.228 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0015.230 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.9 MB, 10332 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0016.083 (0) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: size is now: 2.60 MB
+0016.100 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 600 files added (on-disk size: 2686.4 KB)
+0016.110 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 700 files added (on-disk size: 2686.4 KB)
+0016.116 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 800 files added (on-disk size: 2686.4 KB)
+0016.122 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 900 files added (on-disk size: 2686.4 KB)
+0016.132 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 1000 files added (on-disk size: 2686.4 KB)
+0016.135 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (18.5 MB, 10332 files batched, 501 (1002) added so far); re-opening (prior size: 2686.4 KB)
+0017.191 (0) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: size is now: 16.80 MB
+0017.218 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 1100 files added (on-disk size: 17226 KB)
+0017.224 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 1200 files added (on-disk size: 17226 KB)
+0017.230 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 1300 files added (on-disk size: 17226 KB)
+0017.240 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 1400 files added (on-disk size: 17226 KB)
+0017.247 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 1500 files added (on-disk size: 17226 KB)
+0017.249 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.1 MB, 10332 files batched, 501 (1503) added so far); re-opening (prior size: 17226 KB)
+0018.219 (0) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: size is now: 23.40 MB
+0018.245 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 1600 files added (on-disk size: 23990.4 KB)
+0018.256 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 1700 files added (on-disk size: 23990.4 KB)
+0018.263 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 1800 files added (on-disk size: 23990.4 KB)
+0018.269 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 1900 files added (on-disk size: 23990.4 KB)
+0018.281 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 2000 files added (on-disk size: 23990.4 KB)
+0018.284 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.2 MB, 10332 files batched, 501 (2004) added so far); re-opening (prior size: 23990.4 KB)
+0018.917 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 2100 files added (on-disk size: 25821.7 KB)
+0018.924 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 2200 files added (on-disk size: 25821.7 KB)
+0018.930 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 2300 files added (on-disk size: 25821.7 KB)
+0018.937 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 2400 files added (on-disk size: 25821.7 KB)
+0018.944 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 2500 files added (on-disk size: 25821.7 KB)
+0018.946 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.4 MB, 10332 files batched, 501 (2505) added so far); re-opening (prior size: 25821.7 KB)
+0019.434 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 2600 files added (on-disk size: 26772.7 KB)
+0019.440 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 2700 files added (on-disk size: 26772.7 KB)
+0019.451 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 2800 files added (on-disk size: 26772.7 KB)
+0019.457 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 2900 files added (on-disk size: 26772.7 KB)
+0019.463 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 3000 files added (on-disk size: 26772.7 KB)
+0019.466 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11 MB, 10332 files batched, 501 (3006) added so far); re-opening (prior size: 26772.7 KB)
+0020.543 (0) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: size is now: 35.70 MB
+0020.580 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 3100 files added (on-disk size: 36608 KB)
+0020.587 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 3200 files added (on-disk size: 36608 KB)
+0020.593 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 3300 files added (on-disk size: 36608 KB)
+0020.605 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 3400 files added (on-disk size: 36608 KB)
+0020.612 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 3500 files added (on-disk size: 36608 KB)
+0020.615 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5 MB, 10332 files batched, 501 (3507) added so far); re-opening (prior size: 36608 KB)
+0021.343 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 3600 files added (on-disk size: 39499.8 KB)
+0021.349 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 3700 files added (on-disk size: 39499.8 KB)
+0021.354 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 3800 files added (on-disk size: 39499.8 KB)
+0021.360 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 3900 files added (on-disk size: 39499.8 KB)
+0021.366 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 4000 files added (on-disk size: 39499.8 KB)
+0021.377 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.4 MB, 10332 files batched, 501 (4008) added so far); re-opening (prior size: 39499.8 KB)
+0021.968 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 4100 files added (on-disk size: 40736.2 KB)
+0021.980 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 4200 files added (on-disk size: 40736.2 KB)
+0021.985 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 4300 files added (on-disk size: 40736.2 KB)
+0021.991 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 4400 files added (on-disk size: 40736.2 KB)
+0021.996 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 4500 files added (on-disk size: 40736.2 KB)
+0021.999 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.9 MB, 10332 files batched, 501 (4509) added so far); re-opening (prior size: 40736.2 KB)
+0022.404 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 4600 files added (on-disk size: 41690.5 KB)
+0022.409 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 4700 files added (on-disk size: 41690.5 KB)
+0022.422 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 4800 files added (on-disk size: 41690.5 KB)
+0022.436 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 4900 files added (on-disk size: 41690.5 KB)
+0022.442 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 5000 files added (on-disk size: 41690.5 KB)
+0022.444 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.9 MB, 10332 files batched, 501 (5010) added so far); re-opening (prior size: 41690.5 KB)
+0023.216 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 5100 files added (on-disk size: 42762.2 KB)
+0023.222 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 5200 files added (on-disk size: 42762.2 KB)
+0023.241 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 5300 files added (on-disk size: 42762.2 KB)
+0023.247 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 5400 files added (on-disk size: 42762.2 KB)
+0023.253 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 5500 files added (on-disk size: 42762.2 KB)
+0023.288 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1 MB, 10332 files batched, 501 (5511) added so far); re-opening (prior size: 42762.2 KB)
+0023.625 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 5600 files added (on-disk size: 43863.4 KB)
+0023.631 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 5700 files added (on-disk size: 43863.4 KB)
+0023.644 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 5800 files added (on-disk size: 43863.4 KB)
+0023.649 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 5900 files added (on-disk size: 43863.4 KB)
+0023.655 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 6000 files added (on-disk size: 43863.4 KB)
+0023.663 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.9 MB, 10332 files batched, 501 (6012) added so far); re-opening (prior size: 43863.4 KB)
+0024.029 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 6100 files added (on-disk size: 44927.1 KB)
+0024.035 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 6200 files added (on-disk size: 44927.1 KB)
+0024.041 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 6300 files added (on-disk size: 44927.1 KB)
+0024.047 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 6400 files added (on-disk size: 44927.1 KB)
+0024.055 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 6500 files added (on-disk size: 44927.1 KB)
+0024.058 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 10332 files batched, 501 (6513) added so far); re-opening (prior size: 44927.1 KB)
+0024.437 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 6600 files added (on-disk size: 48004.1 KB)
+0024.443 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 6700 files added (on-disk size: 48004.1 KB)
+0024.449 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 6800 files added (on-disk size: 48004.1 KB)
+0024.455 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 6900 files added (on-disk size: 48004.1 KB)
+0024.462 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 7000 files added (on-disk size: 48004.1 KB)
+0024.465 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.8 MB, 10332 files batched, 501 (7014) added so far); re-opening (prior size: 48004.1 KB)
+0024.862 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 7100 files added (on-disk size: 48857.6 KB)
+0024.868 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 7200 files added (on-disk size: 48857.6 KB)
+0024.873 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 7300 files added (on-disk size: 48857.6 KB)
+0024.882 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 7400 files added (on-disk size: 48857.6 KB)
+0024.888 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 7500 files added (on-disk size: 48857.6 KB)
+0024.891 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.4 MB, 10332 files batched, 501 (7515) added so far); re-opening (prior size: 48857.6 KB)
+0025.252 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 7600 files added (on-disk size: 49378.8 KB)
+0025.258 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 7700 files added (on-disk size: 49378.8 KB)
+0025.264 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 7800 files added (on-disk size: 49378.8 KB)
+0025.270 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 7900 files added (on-disk size: 49378.8 KB)
+0025.279 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 8000 files added (on-disk size: 49378.8 KB)
+0025.282 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.4 MB, 10332 files batched, 501 (8016) added so far); re-opening (prior size: 49378.8 KB)
+0025.638 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 8100 files added (on-disk size: 49899.4 KB)
+0025.644 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 8200 files added (on-disk size: 49899.4 KB)
+0025.650 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 8300 files added (on-disk size: 49899.4 KB)
+0025.658 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 8400 files added (on-disk size: 49899.4 KB)
+0025.664 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 8500 files added (on-disk size: 49899.4 KB)
+0025.667 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.4 MB, 10332 files batched, 501 (8517) added so far); re-opening (prior size: 49899.4 KB)
+0026.031 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 8600 files added (on-disk size: 50405.2 KB)
+0026.037 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 8700 files added (on-disk size: 50405.2 KB)
+0026.042 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 8800 files added (on-disk size: 50405.2 KB)
+0026.052 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 8900 files added (on-disk size: 50405.2 KB)
+0026.058 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 9000 files added (on-disk size: 50405.2 KB)
+0026.061 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.4 MB, 10332 files batched, 501 (9018) added so far); re-opening (prior size: 50405.2 KB)
+0026.442 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 9100 files added (on-disk size: 50923.1 KB)
+0026.447 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 9200 files added (on-disk size: 50923.1 KB)
+0026.458 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 9300 files added (on-disk size: 50923.1 KB)
+0026.463 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 9400 files added (on-disk size: 50923.1 KB)
+0026.469 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 9500 files added (on-disk size: 50923.1 KB)
+0026.474 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.6 MB, 10332 files batched, 501 (9519) added so far); re-opening (prior size: 50923.1 KB)
+0027.284 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 9600 files added (on-disk size: 53409.9 KB)
+0027.290 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 9700 files added (on-disk size: 53409.9 KB)
+0027.300 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 9800 files added (on-disk size: 53409.9 KB)
+0027.306 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 9900 files added (on-disk size: 53409.9 KB)
+0027.312 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 10000 files added (on-disk size: 53409.9 KB)
+0027.322 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.1 MB, 10332 files batched, 501 (10020) added so far); re-opening (prior size: 53409.9 KB)
+0028.365 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 10100 files added (on-disk size: 56263.6 KB)
+0028.377 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 10200 files added (on-disk size: 56263.6 KB)
+0028.382 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip.tmp: 10300 files added (on-disk size: 56263.6 KB)
+0030.503 (0) Created themes zip (0) - 60820.1 KB in 16.1 s (3784.8 KB/s) (sha1: 37f5079a162eb92fe21d255994ed8158b6c709e8, sha256: 4fc4adb576cc62aceaead3a94ed9c84a095171e289e71d83a925b845e8e55709)
+0030.517 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0030.520 (0) Looking for candidates to backup in: /data/www/ai.hebut.edu.cn/htdocs/wp-content/uploads
+0030.522 (0) finding files: 2014: adding to list (1)
+0030.534 (0) finding files: 2019: adding to list (2)
+0030.536 (0) finding files: 2017: adding to list (3)
+0030.538 (0) finding files: et_temp: adding to list (4)
+0030.540 (0) finding files: 2018: adding to list (5)
+0030.542 (0) finding files: redux: adding to list (6)
+0030.544 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0031.202 (0) Total entities for the zip file: 28 directories, 9984 files (0 skipped as non-modified), 1408 MB
+0031.213 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0031.218 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 9984 files batched, 181 (181) added so far); re-opening (prior size: 0 KB)
+0032.709 (0) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: size is now: 24.80 MB
+0032.731 (0) A useful amount of data was added after this amount of zip processing: 3.2 s (normalised: 3.2 s, rate: 8081.5 KB/s)
+0032.736 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.1769649982452, normalised_time=3.1677205768748, max_time=32.722290992737, data points known=1, old_max_bytes=26214400, new_max_bytes=162475547)
+0032.742 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: 200 files added (on-disk size: 25433.9 KB)
+0032.751 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: 300 files added (on-disk size: 25433.9 KB)
+0032.757 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: 400 files added (on-disk size: 25433.9 KB)
+0032.762 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: 500 files added (on-disk size: 25433.9 KB)
+0032.768 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: 600 files added (on-disk size: 25433.9 KB)
+0032.773 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (79.3 MB, 9984 files batched, 501 (682) added so far); re-opening (prior size: 25433.9 KB)
+0038.366 (0) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: size is now: 103.90 MB
+0038.396 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: 700 files added (on-disk size: 106373.7 KB)
+0038.410 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: 800 files added (on-disk size: 106373.7 KB)
+0038.422 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: 900 files added (on-disk size: 106373.7 KB)
+0038.449 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: 1000 files added (on-disk size: 106373.7 KB)
+0038.456 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: 1100 files added (on-disk size: 106373.7 KB)
+0038.466 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (67.2 MB, 9984 files batched, 501 (1183) added so far); re-opening (prior size: 106373.7 KB)
+0047.480 (0) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: size is now: 171.00 MB
+0047.508 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: 1200 files added (on-disk size: 175131.3 KB)
+0047.518 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: 1300 files added (on-disk size: 175131.3 KB)
+0047.531 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: 1400 files added (on-disk size: 175131.3 KB)
+0047.546 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: 1500 files added (on-disk size: 175131.3 KB)
+0047.556 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: 1600 files added (on-disk size: 175131.3 KB)
+0047.574 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (62.3 MB, 9984 files batched, 501 (1684) added so far); re-opening (prior size: 175131.3 KB)
+0056.686 (0) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: size is now: 233.40 MB
+0056.701 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: 1700 files added (on-disk size: 238983.8 KB)
+0056.721 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: 1800 files added (on-disk size: 238983.8 KB)
+0056.727 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: 1900 files added (on-disk size: 238983.8 KB)
+0056.735 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: 2000 files added (on-disk size: 238983.8 KB)
+0056.742 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: 2100 files added (on-disk size: 238983.8 KB)
+0056.759 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (142.3 MB, 9984 files batched, 501 (2185) added so far); re-opening (prior size: 238983.8 KB)
+0072.281 (0) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: size is now: 375.70 MB
+0072.303 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip.tmp: 2200 files added (on-disk size: 384744.3 KB)
+0072.310 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (22.3 MB, 74 (2259) files added so far); last ratio: 1; re-opening (prior size: 384744.3 KB)
+0086.803 (0) Zip size is at/near split limit (398 MB / 400 MB) - bumping index (from: 0)
+0093.662 (0) Created uploads zip (0) - 407576.1 KB in 56.3 s (7244.4 KB/s) (checksums: sha1: 8e0f6a479e55f4c057aee56a72d5f39b879b85a0, sha256: e70b3a1e9e540224d4088c558a2bc3579eb9cd7faf69f8c13af1c43d0ca6a649)
+0093.671 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0.1 MB, 1 (2260) files added so far); re-opening (prior size: 0 KB)
+0093.711 (0) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: size is now: 0.10 MB
+0093.738 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 2300 files added (on-disk size: 104 KB)
+0093.756 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 2400 files added (on-disk size: 104 KB)
+0093.763 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 2500 files added (on-disk size: 104 KB)
+0093.771 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 2600 files added (on-disk size: 104 KB)
+0093.807 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 2700 files added (on-disk size: 104 KB)
+0093.813 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (97.2 MB, 9984 files batched, 501 (2761) added so far); re-opening (prior size: 104 KB)
+0099.898 (0) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: size is now: 97.40 MB
+0099.931 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 2800 files added (on-disk size: 99694.5 KB)
+0099.958 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 2900 files added (on-disk size: 99694.5 KB)
+0099.976 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 3000 files added (on-disk size: 99694.5 KB)
+0099.985 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 3100 files added (on-disk size: 99694.5 KB)
+0099.993 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 3200 files added (on-disk size: 99694.5 KB)
+0100.003 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (67.5 MB, 9984 files batched, 501 (3262) added so far); re-opening (prior size: 99694.5 KB)
+0109.067 (0) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: size is now: 164.50 MB
+0109.086 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 3300 files added (on-disk size: 168398.4 KB)
+0109.096 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 3400 files added (on-disk size: 168398.4 KB)
+0109.106 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 3500 files added (on-disk size: 168398.4 KB)
+0109.125 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 3600 files added (on-disk size: 168398.4 KB)
+0109.135 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 3700 files added (on-disk size: 168398.4 KB)
+0109.141 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (79.7 MB, 9984 files batched, 501 (3763) added so far); re-opening (prior size: 168398.4 KB)
+0119.716 (0) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: size is now: 244.20 MB
+0119.769 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 3800 files added (on-disk size: 250025.9 KB)
+0119.791 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 3900 files added (on-disk size: 250025.9 KB)
+0119.798 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 4000 files added (on-disk size: 250025.9 KB)
+0119.806 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 4100 files added (on-disk size: 250025.9 KB)
+0119.815 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 4200 files added (on-disk size: 250025.9 KB)
+0119.826 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (71 MB, 9984 files batched, 501 (4264) added so far); re-opening (prior size: 250025.9 KB)
+0132.313 (0) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: size is now: 315.20 MB
+0132.347 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 4300 files added (on-disk size: 322812.3 KB)
+0132.379 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 4400 files added (on-disk size: 322812.3 KB)
+0132.401 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 4500 files added (on-disk size: 322812.3 KB)
+0132.437 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 4600 files added (on-disk size: 322812.3 KB)
+0132.465 (0) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 4700 files added (on-disk size: 322812.3 KB)
+0132.485 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (61.8 MB, 9984 files batched, 501 (4765) added so far); re-opening (prior size: 322812.3 KB)
+0343.286 (1) Opened log file at time: Fri, 21 Jun 2019 09:18:35 +0000 on http://ai.hebut.edu.cn
+0343.289 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 5.2.2 PHP: 5.6.31 (fpm-fcgi, Linux HEBUT-SCSE-WWW 2.6.32-754.9.1.el6.x86_64 #1 SMP Thu Dec 6 08:02:15 UTC 2018 x86_64) MySQL: 5.7.24 WPLANG: zh_CN Server: nginx/1.14.2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 47.2M | 48.8M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0343.292 (1) Free space on disk containing Updraft's temporary directory: 11856.2 MB
+0343.298 (1) Backup run: resumption=1, nonce=7e7c5589afe4, file_nonce=7e7c5589afe4 begun at=1561108372 (343s ago), job type=backup, previous check-in=132.3s
+0343.304 (1) Scheduling a resumption (2) after 300 seconds (1561109015) in case this run gets aborted
+0343.335 (1) Checking if we have a zip executable available
+0343.338 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0343.340 (1) Creation of backups of directories: had begun; will resume
+0343.346 (1) Beginning creation of dump of plugins (split every: 400 MB)
+0343.348 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip: this file has already been created (age: 329 s)
+0343.357 (1) Beginning creation of dump of themes (split every: 400 MB)
+0343.359 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip: this file has already been created (age: 313 s)
+0343.373 (1) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0343.377 (1) Looking for candidates to backup in: /data/www/ai.hebut.edu.cn/htdocs/wp-content/uploads
+0343.380 (1) finding files: 2014: adding to list (1)
+0343.382 (1) finding files: 2019: adding to list (2)
+0343.385 (1) finding files: 2017: adding to list (3)
+0343.387 (1) finding files: et_temp: adding to list (4)
+0343.389 (1) finding files: 2018: adding to list (5)
+0343.392 (1) finding files: redux: adding to list (6)
+0343.396 (1) Beginning creation of dump of uploads (split every: 400 MB)
+0343.400 (1) File exists (/data/www/ai.hebut.edu.cn/htdocs/wp-content/updraft/backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1561108518, time_now=1561108715, diff=197)
+0343.486 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip: Zip file already exists, with 2259 files
+0343.556 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: Zip file already exists, with 4765 files
+0344.087 (1) Total entities for the zip file: 28 directories, 9984 files (0 skipped as non-modified), 1408 MB
+0344.095 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 100 files added (on-disk size: 386176.5 KB)
+0344.098 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 200 files added (on-disk size: 386176.5 KB)
+0344.103 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 300 files added (on-disk size: 386176.5 KB)
+0344.104 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 400 files added (on-disk size: 386176.5 KB)
+0344.109 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 500 files added (on-disk size: 386176.5 KB)
+0344.110 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 600 files added (on-disk size: 386176.5 KB)
+0344.113 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 700 files added (on-disk size: 386176.5 KB)
+0344.118 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 800 files added (on-disk size: 386176.5 KB)
+0344.119 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 900 files added (on-disk size: 386176.5 KB)
+0344.122 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 1000 files added (on-disk size: 386176.5 KB)
+0344.129 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 1100 files added (on-disk size: 386176.5 KB)
+0344.132 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 1200 files added (on-disk size: 386176.5 KB)
+0344.135 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 1300 files added (on-disk size: 386176.5 KB)
+0344.136 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 1400 files added (on-disk size: 386176.5 KB)
+0344.141 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 1500 files added (on-disk size: 386176.5 KB)
+0344.142 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 1600 files added (on-disk size: 386176.5 KB)
+0344.148 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 1700 files added (on-disk size: 386176.5 KB)
+0344.149 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 1800 files added (on-disk size: 386176.5 KB)
+0344.154 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 1900 files added (on-disk size: 386176.5 KB)
+0344.156 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 2000 files added (on-disk size: 386176.5 KB)
+0344.169 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 2100 files added (on-disk size: 386176.5 KB)
+0344.171 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 2200 files added (on-disk size: 386176.5 KB)
+0344.176 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 2300 files added (on-disk size: 386176.5 KB)
+0344.177 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 2400 files added (on-disk size: 386176.5 KB)
+0344.182 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 2500 files added (on-disk size: 386176.5 KB)
+0344.183 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 2600 files added (on-disk size: 386176.5 KB)
+0344.188 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 2700 files added (on-disk size: 386176.5 KB)
+0344.192 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 2800 files added (on-disk size: 386176.5 KB)
+0344.194 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 2900 files added (on-disk size: 386176.5 KB)
+0344.199 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 3000 files added (on-disk size: 386176.5 KB)
+0344.203 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 3100 files added (on-disk size: 386176.5 KB)
+0344.204 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 3200 files added (on-disk size: 386176.5 KB)
+0344.209 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 3300 files added (on-disk size: 386176.5 KB)
+0344.211 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 3400 files added (on-disk size: 386176.5 KB)
+0344.216 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 3500 files added (on-disk size: 386176.5 KB)
+0344.218 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 3600 files added (on-disk size: 386176.5 KB)
+0344.219 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 3700 files added (on-disk size: 386176.5 KB)
+0344.224 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 3800 files added (on-disk size: 386176.5 KB)
+0344.229 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 3900 files added (on-disk size: 386176.5 KB)
+0344.231 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 4000 files added (on-disk size: 386176.5 KB)
+0344.238 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 4100 files added (on-disk size: 386176.5 KB)
+0344.241 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 4200 files added (on-disk size: 386176.5 KB)
+0344.244 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 4300 files added (on-disk size: 386176.5 KB)
+0344.252 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 4400 files added (on-disk size: 386176.5 KB)
+0344.254 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 4500 files added (on-disk size: 386176.5 KB)
+0344.255 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 4600 files added (on-disk size: 386176.5 KB)
+0344.261 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 4700 files added (on-disk size: 386176.5 KB)
+0344.266 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 4800 files added (on-disk size: 386176.5 KB)
+0344.276 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip.tmp: 4900 files added (on-disk size: 386176.5 KB)
+0344.280 (1) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (21.5 MB, 164 (164) files added so far); last ratio: 0.9992; re-opening (prior size: 386176.5 KB)
+0353.796 (1) Zip size is at/near split limit (398.7 MB / 400 MB) - bumping index (from: 1)
+0364.570 (1) Created uploads zip (1) - 408223.9 KB in 10.4 s (39253.9 KB/s) (checksums: sha1: c31eaaccd22928eeffec2c40629af04f21241a4b, sha256: fb0175950a4b47da37460ae8a788bd345e902c5f4e1d7c399c893b2bc3723b21)
+0364.584 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0.1 MB, 1 (165) files added so far); re-opening (prior size: 0 KB)
+0364.836 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: size is now: 0.10 MB
+0364.859 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 5000 files added (on-disk size: 81.8 KB)
+0364.865 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 5100 files added (on-disk size: 81.8 KB)
+0364.873 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 5200 files added (on-disk size: 81.8 KB)
+0364.879 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 5300 files added (on-disk size: 81.8 KB)
+0364.886 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 5400 files added (on-disk size: 81.8 KB)
+0364.889 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (68.6 MB, 9984 files batched, 501 (666) added so far); re-opening (prior size: 81.8 KB)
+0370.720 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: size is now: 68.70 MB
+0370.752 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 5500 files added (on-disk size: 70340.6 KB)
+0370.771 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 5600 files added (on-disk size: 70340.6 KB)
+0370.778 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 5700 files added (on-disk size: 70340.6 KB)
+0370.785 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 5800 files added (on-disk size: 70340.6 KB)
+0370.792 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 5900 files added (on-disk size: 70340.6 KB)
+0370.796 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (49.1 MB, 9984 files batched, 501 (1167) added so far); re-opening (prior size: 70340.6 KB)
+0377.798 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: size is now: 117.80 MB
+0377.814 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 6000 files added (on-disk size: 120595.9 KB)
+0377.822 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 6100 files added (on-disk size: 120595.9 KB)
+0377.837 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 6200 files added (on-disk size: 120595.9 KB)
+0377.844 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 6300 files added (on-disk size: 120595.9 KB)
+0377.851 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 6400 files added (on-disk size: 120595.9 KB)
+0377.855 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (48.4 MB, 9984 files batched, 501 (1668) added so far); re-opening (prior size: 120595.9 KB)
+0384.646 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: size is now: 166.20 MB
+0384.670 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 6500 files added (on-disk size: 170163.7 KB)
+0384.688 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 6600 files added (on-disk size: 170163.7 KB)
+0384.695 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 6700 files added (on-disk size: 170163.7 KB)
+0384.702 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 6800 files added (on-disk size: 170163.7 KB)
+0384.712 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 6900 files added (on-disk size: 170163.7 KB)
+0384.728 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (60.8 MB, 9984 files batched, 501 (2169) added so far); re-opening (prior size: 170163.7 KB)
+0395.457 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: size is now: 227.00 MB
+0395.481 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 7000 files added (on-disk size: 232496.2 KB)
+0395.503 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 7100 files added (on-disk size: 232496.2 KB)
+0395.512 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 7200 files added (on-disk size: 232496.2 KB)
+0395.520 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 7300 files added (on-disk size: 232496.2 KB)
+0395.539 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 7400 files added (on-disk size: 232496.2 KB)
+0395.543 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (33.7 MB, 9984 files batched, 501 (2670) added so far); re-opening (prior size: 232496.2 KB)
+0404.681 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 7500 files added (on-disk size: 267087.1 KB)
+0404.694 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 7600 files added (on-disk size: 267087.1 KB)
+0404.703 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 7700 files added (on-disk size: 267087.1 KB)
+0404.726 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 7800 files added (on-disk size: 267087.1 KB)
+0404.745 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 7900 files added (on-disk size: 267087.1 KB)
+0404.751 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (62.1 MB, 9984 files batched, 501 (3171) added so far); re-opening (prior size: 267087.1 KB)
+0414.649 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: size is now: 323.10 MB
+0414.667 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 8000 files added (on-disk size: 330820.6 KB)
+0414.675 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 8100 files added (on-disk size: 330820.6 KB)
+0414.691 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 8200 files added (on-disk size: 330820.6 KB)
+0414.698 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 8300 files added (on-disk size: 330820.6 KB)
+0414.705 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: 8400 files added (on-disk size: 330820.6 KB)
+0414.713 (1) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (69.9 MB, 491 (3662) files added so far); last ratio: 1; re-opening (prior size: 330820.6 KB)
+0427.618 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip.tmp: size is now: 393.10 MB
+0427.670 (1) Zip size is at/near split limit (393.1 MB / 400 MB) - bumping index (from: 2)
+0434.302 (1) Created uploads zip (2) - 402524.3 KB in 63.1 s (6378.9 KB/s) (checksums: sha1: 5a7e940cf0161ed736e005aa27ad1e7ebd7a2363, sha256: da07e5103d33b150ae3f6ef68ae4b58cc80b06d3d8ce7769baca6b72169e5b7d)
+0434.307 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (3663) files added so far); re-opening (prior size: 0 KB)
+0434.325 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads4.zip.tmp: size is now: 0.00 MB
+0434.348 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads4.zip.tmp: 8500 files added (on-disk size: 34.6 KB)
+0434.387 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads4.zip.tmp: 8600 files added (on-disk size: 34.6 KB)
+0434.400 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads4.zip.tmp: 8700 files added (on-disk size: 34.6 KB)
+0434.410 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads4.zip.tmp: 8800 files added (on-disk size: 34.6 KB)
+0434.416 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads4.zip.tmp: 8900 files added (on-disk size: 34.6 KB)
+0434.420 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (69.9 MB, 9984 files batched, 501 (4164) added so far); re-opening (prior size: 34.6 KB)
+0439.061 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads4.zip.tmp: size is now: 70.00 MB
+0439.201 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads4.zip.tmp: 9000 files added (on-disk size: 71675 KB)
+0439.208 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads4.zip.tmp: 9100 files added (on-disk size: 71675 KB)
+0439.224 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads4.zip.tmp: 9200 files added (on-disk size: 71675 KB)
+0439.232 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads4.zip.tmp: 9300 files added (on-disk size: 71675 KB)
+0439.240 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads4.zip.tmp: 9400 files added (on-disk size: 71675 KB)
+0439.260 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (62.5 MB, 9984 files batched, 501 (4665) added so far); re-opening (prior size: 71675 KB)
+0444.489 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads4.zip.tmp: size is now: 132.60 MB
+0444.524 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads4.zip.tmp: 9500 files added (on-disk size: 135814.6 KB)
+0444.545 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads4.zip.tmp: 9600 files added (on-disk size: 135814.6 KB)
+0444.566 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads4.zip.tmp: 9700 files added (on-disk size: 135814.6 KB)
+0444.593 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads4.zip.tmp: 9800 files added (on-disk size: 135814.6 KB)
+0444.612 (1) Zip: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads4.zip.tmp: 9900 files added (on-disk size: 135814.6 KB)
+0444.621 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (82.8 MB, 9984 files batched, 501 (5166) added so far); re-opening (prior size: 135814.6 KB)
+0454.991 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads4.zip.tmp: size is now: 215.20 MB
+0462.801 (1) Created uploads zip (3) - 223227.6 KB in 28.5 s (7833.4 KB/s) (sha1: 8b6332f4cb4cff18ac4bfa3741dcbb96720e98eb, sha256: 00264e87623fc4927f6e89670e5ec4150ffab0d85f49251a9e8a81c46937aad0)
+0462.808 (1) Beginning backup of other directories found in the content directory (index: 0)
+0462.812 (1) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0462.815 (1) Looking for candidates to backup in: /data/www/ai.hebut.edu.cn/htdocs/wp-content
+0462.817 (1) finding files: uploads: skipping: this is the uploads directory
+0462.819 (1) finding files: plugins: skipping: this is the plugins directory
+0462.826 (1) finding files: themes: skipping: this is the themes directory
+0462.828 (1) finding files: upgrade: skipping: excluded by options
+0462.831 (1) finding files: cache: skipping: excluded by options
+0462.835 (1) finding files: updraft: skipping: this is the updraft directory
+0462.844 (1) finding files: advanced-cache.php: adding to list (1)
+0462.847 (1) finding files: languages: adding to list (2)
+0462.850 (1) finding files: index.php: adding to list (3)
+0462.853 (1) finding files: wp-cache-config.php: adding to list (4)
+0462.930 (1) Total entities for the zip file: 3 directories, 96 files (0 skipped as non-modified), 3.1 MB
+0463.502 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-others.zip.tmp: size is now: 1.00 MB
+0463.552 (1) Created others zip (0) - 1006.3 KB in 0.7 s (1461.1 KB/s) (sha1: 2e785d640da78b868f6cc63b838dd901fec1e21d, sha256: 7032bb4c37524c5719d5aa79c7b1268b3f5b4750656d92dcd570f7b02ca212ce)
+0463.571 (1) Saving backup status to database (elements: 11)
+0463.668 (1) Resuming creation of database dump (WordPress DB)
+0463.720 (1) Testing potential mysqldump binary: /usr/bin/mysqldump
+0464.472 (1) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1192 bytes total)
+0464.485 (1) Working binary mysqldump found: /usr/bin/mysqldump
+0464.693 (1) Table wp_options: Total expected rows (approximate): 411
+0464.737 (1) Table wp_options: Total rows added: 416 in 0.04 seconds
+0464.740 (1) Table wp_options: finishing file (backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_options.table.gz - 49.4 KB)
+0464.761 (1) Table wp_users: Total expected rows (approximate): 18
+0464.767 (1) Table wp_users: Total rows added: 19 in 0.00 seconds
+0464.769 (1) Table wp_users: finishing file (backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_users.table.gz - 2.2 KB)
+0464.779 (1) Table wp_usermeta: Total expected rows (approximate): 511
+0464.794 (1) Table wp_usermeta: Total rows added: 527 in 0.01 seconds
+0464.797 (1) Table wp_usermeta: finishing file (backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_usermeta.table.gz - 7.2 KB)
+0464.806 (1) Table wp_commentmeta: Total expected rows (approximate): 0
+0464.815 (1) Table wp_commentmeta: Total rows added: 2 in 0.01 seconds
+0464.818 (1) Table wp_commentmeta: finishing file (backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0464.838 (1) Table wp_comments: Total expected rows (approximate): 74
+0464.850 (1) Table wp_comments: Total rows added: 119 in 0.01 seconds
+0464.852 (1) Table wp_comments: finishing file (backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_comments.table.gz - 6 KB)
+0464.886 (1) Table wp_links: Total expected rows (approximate): 0
+0464.897 (1) Table wp_links: Total rows added: 0 in 0.00 seconds
+0464.902 (1) Table wp_links: finishing file (backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_links.table.gz - 0.4 KB)
+0464.924 (1) Table wp_postmeta: Total expected rows (approximate): 10781
+0465.120 (1) Table wp_postmeta: binary mysqldump finished (writes: 34) in 0.19 seconds
+0465.125 (1) Table wp_postmeta: finishing file (backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_postmeta.table.gz - 182.5 KB)
+0465.135 (1) Table wp_posts: Total expected rows (approximate): 1421
+0465.751 (1) Table wp_posts: Total rows added: 2095 in 0.61 seconds
+0465.755 (1) Table wp_posts: finishing file (backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_posts.table.gz - 588.1 KB)
+0465.766 (1) Table wp_term_relationships: Total expected rows (approximate): 800
+0465.780 (1) Table wp_term_relationships: Total rows added: 915 in 0.01 seconds
+0465.782 (1) Table wp_term_relationships: finishing file (backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_term_relationships.table.gz - 3 KB)
+0465.791 (1) Table wp_term_taxonomy: Total expected rows (approximate): 138
+0465.798 (1) Table wp_term_taxonomy: Total rows added: 138 in 0.00 seconds
+0465.801 (1) Table wp_term_taxonomy: finishing file (backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_term_taxonomy.table.gz - 1.6 KB)
+0465.826 (1) Table wp_termmeta: Total expected rows (approximate): 0
+0465.831 (1) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0465.834 (1) Table wp_termmeta: finishing file (backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_termmeta.table.gz - 0.4 KB)
+0465.861 (1) Table wp_terms: Total expected rows (approximate): 138
+0465.867 (1) Table wp_terms: Total rows added: 138 in 0.00 seconds
+0465.885 (1) Table wp_terms: finishing file (backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_terms.table.gz - 2.8 KB)
+0465.932 (1) Table wp_1_department_hours: Total expected rows (approximate): 45
+0465.956 (1) Table wp_1_department_hours: Total rows added: 45 in 0.02 seconds
+0465.960 (1) Table wp_1_department_hours: finishing file (backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_1_department_hours.table.gz - 1.3 KB)
+0466.006 (1) Table wp_dynamic_widgets: Total expected rows (approximate): 146
+0466.015 (1) Table wp_dynamic_widgets: Total rows added: 146 in 0.00 seconds
+0466.017 (1) Table wp_dynamic_widgets: finishing file (backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_dynamic_widgets.table.gz - 1.3 KB)
+0466.061 (1) Table wp_realmedialibrary: Total expected rows (approximate): 20
+0466.078 (1) Table wp_realmedialibrary: Total rows added: 20 in 0.01 seconds
+0466.081 (1) Table wp_realmedialibrary: finishing file (backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_realmedialibrary.table.gz - 1.1 KB)
+0466.102 (1) Table wp_realmedialibrary_debug: Total expected rows (approximate): 0
+0466.109 (1) Table wp_realmedialibrary_debug: Total rows added: 0 in 0.00 seconds
+0466.111 (1) Table wp_realmedialibrary_debug: finishing file (backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_realmedialibrary_debug.table.gz - 0.3 KB)
+0466.134 (1) Table wp_realmedialibrary_meta: Total expected rows (approximate): 0
+0466.140 (1) Table wp_realmedialibrary_meta: Total rows added: 0 in 0.00 seconds
+0466.143 (1) Table wp_realmedialibrary_meta: finishing file (backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_realmedialibrary_meta.table.gz - 0.4 KB)
+0466.161 (1) Table wp_realmedialibrary_posts: Total expected rows (approximate): 383
+0466.195 (1) Table wp_realmedialibrary_posts: Total rows added: 571 in 0.02 seconds
+0466.198 (1) Table wp_realmedialibrary_posts: finishing file (backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_realmedialibrary_posts.table.gz - 2.1 KB)
+0466.231 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_options.table.gz (1/18): adding to final database dump
+0466.253 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_users.table.gz (2/18): adding to final database dump
+0466.261 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_usermeta.table.gz (3/18): adding to final database dump
+0466.269 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_commentmeta.table.gz (4/18): adding to final database dump
+0466.272 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_comments.table.gz (5/18): adding to final database dump
+0466.276 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_links.table.gz (6/18): adding to final database dump
+0466.279 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_postmeta.table.gz (7/18): adding to final database dump
+0466.342 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_posts.table.gz (8/18): adding to final database dump
+0466.494 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_term_relationships.table.gz (9/18): adding to final database dump
+0466.502 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_term_taxonomy.table.gz (10/18): adding to final database dump
+0466.505 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_termmeta.table.gz (11/18): adding to final database dump
+0466.515 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_terms.table.gz (12/18): adding to final database dump
+0466.519 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_1_department_hours.table.gz (13/18): adding to final database dump
+0466.522 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_dynamic_widgets.table.gz (14/18): adding to final database dump
+0466.526 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_realmedialibrary.table.gz (15/18): adding to final database dump
+0466.529 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_realmedialibrary_debug.table.gz (16/18): adding to final database dump
+0466.532 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_realmedialibrary_meta.table.gz (17/18): adding to final database dump
+0466.534 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db-table-wp_realmedialibrary_posts.table.gz (18/18): adding to final database dump
+0466.544 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db.gz: finished writing out complete database file (816 KB)
+0466.586 (1) Total database tables backed up: 18 (backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db.gz, size: 868022, sha256)
+0466.623 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0466.627 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0466.633 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0466.636 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+0466.638 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip: uploads: This file has not yet been successfully uploaded: will queue
+0466.641 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads4.zip: uploads: This file has not yet been successfully uploaded: will queue
+0466.644 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-others.zip: others: This file has not yet been successfully uploaded: will queue
+0466.647 (1) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db.gz: db: This file has not yet been successfully uploaded: will queue
+0466.650 (1) Saving backup history. Total backup size: 1.5 GB
+0466.658 (1) Requesting upload of the files that have not yet been successfully uploaded (8)
+0466.666 (1) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0466.669 (1) Beginning dispatch of backup to remote (ftp) (instance identifier s-975962e60e96d791513592e27e579e10)
+0466.773 (1) FTP: upload attempt: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip -> ftp://backup@115.24.161.46/ai.hebut.edu.cn/backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip
+0466.869 (1) Ftp chunked upload: 1.6 % uploaded
+0466.904 (1) Ftp chunked upload: 3.2 % uploaded
+0466.944 (1) Ftp chunked upload: 4.8 % uploaded
+0466.975 (1) Ftp chunked upload: 6.4 % uploaded
+0467.034 (1) Ftp chunked upload: 9.5 % uploaded
+0467.078 (1) Ftp chunked upload: 12.7 % uploaded
+0467.148 (1) Ftp chunked upload: 19 % uploaded
+0467.219 (1) Ftp chunked upload: 25.3 % uploaded
+0467.450 (1) Ftp chunked upload: 31.7 % uploaded
+0467.518 (1) Ftp chunked upload: 38 % uploaded
+0467.587 (1) Ftp chunked upload: 44.3 % uploaded
+0467.655 (1) Ftp chunked upload: 50.6 % uploaded
+0467.728 (1) Ftp chunked upload: 57 % uploaded
+0467.807 (1) Ftp chunked upload: 63.3 % uploaded
+0467.875 (1) Ftp chunked upload: 69.6 % uploaded
+0468.015 (1) Ftp chunked upload: 75.9 % uploaded
+0468.099 (1) Ftp chunked upload: 82.3 % uploaded
+0468.173 (1) Ftp chunked upload: 88.6 % uploaded
+0468.253 (1) Ftp chunked upload: 94.9 % uploaded
+0468.321 (1) FTP: upload attempt successful (32434.8KB in 1.54s)
+0468.324 (1) Recording as successfully uploaded: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip
+0468.338 (1) Deleting local file: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip: OK
+0468.346 (1) FTP: upload attempt: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip -> ftp://backup@115.24.161.46/ai.hebut.edu.cn/backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip
+0468.572 (1) Ftp chunked upload: 0.8 % uploaded
+0468.595 (1) Ftp chunked upload: 1.7 % uploaded
+0468.618 (1) Ftp chunked upload: 2.5 % uploaded
+0468.653 (1) Ftp chunked upload: 3.4 % uploaded
+0468.690 (1) Ftp chunked upload: 5.1 % uploaded
+0468.727 (1) Ftp chunked upload: 6.8 % uploaded
+0468.791 (1) Ftp chunked upload: 10.1 % uploaded
+0468.857 (1) Ftp chunked upload: 13.5 % uploaded
+0468.924 (1) Ftp chunked upload: 16.9 % uploaded
+0468.990 (1) Ftp chunked upload: 20.3 % uploaded
+0469.058 (1) Ftp chunked upload: 23.6 % uploaded
+0469.134 (1) Ftp chunked upload: 27 % uploaded
+0469.205 (1) Ftp chunked upload: 30.4 % uploaded
+0469.280 (1) Ftp chunked upload: 33.8 % uploaded
+0469.347 (1) Ftp chunked upload: 37.1 % uploaded
+0469.412 (1) Ftp chunked upload: 40.5 % uploaded
+0469.476 (1) Ftp chunked upload: 43.9 % uploaded
+0469.547 (1) Ftp chunked upload: 47.2 % uploaded
+0469.619 (1) Ftp chunked upload: 50.6 % uploaded
+0469.697 (1) Ftp chunked upload: 54 % uploaded
+0469.773 (1) Ftp chunked upload: 57.4 % uploaded
+0469.840 (1) Ftp chunked upload: 60.7 % uploaded
+0469.913 (1) Ftp chunked upload: 64.1 % uploaded
+0469.981 (1) Ftp chunked upload: 67.5 % uploaded
+0470.071 (1) Ftp chunked upload: 70.9 % uploaded
+0470.141 (1) Ftp chunked upload: 74.2 % uploaded
+0470.214 (1) Ftp chunked upload: 77.6 % uploaded
+0470.291 (1) Ftp chunked upload: 81 % uploaded
+0470.360 (1) Ftp chunked upload: 84.4 % uploaded
+0470.423 (1) Ftp chunked upload: 87.7 % uploaded
+0470.498 (1) Ftp chunked upload: 91.1 % uploaded
+0470.590 (1) Ftp chunked upload: 94.5 % uploaded
+0470.672 (1) Ftp chunked upload: 97.8 % uploaded
+0470.727 (1) FTP: upload attempt successful (60820.1KB in 2.38s)
+0470.734 (1) Recording as successfully uploaded: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip
+0470.746 (1) Deleting local file: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip: OK
+0470.751 (1) FTP: upload attempt: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip -> ftp://backup@115.24.161.46/ai.hebut.edu.cn/backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip
+0471.148 (1) Ftp chunked upload: 0.1 % uploaded
+0471.181 (1) Ftp chunked upload: 0.3 % uploaded
+0471.204 (1) Ftp chunked upload: 0.4 % uploaded
+0471.226 (1) Ftp chunked upload: 0.5 % uploaded
+0471.277 (1) Ftp chunked upload: 0.8 % uploaded
+0471.329 (1) Ftp chunked upload: 1 % uploaded
+0471.397 (1) Ftp chunked upload: 1.5 % uploaded
+0471.495 (1) Ftp chunked upload: 2 % uploaded
+0471.565 (1) Ftp chunked upload: 2.5 % uploaded
+0471.630 (1) Ftp chunked upload: 3 % uploaded
+0471.733 (1) Ftp chunked upload: 3.5 % uploaded
+0471.809 (1) Ftp chunked upload: 4 % uploaded
+0471.875 (1) Ftp chunked upload: 4.5 % uploaded
+0471.941 (1) Ftp chunked upload: 5 % uploaded
+0472.016 (1) Ftp chunked upload: 5.5 % uploaded
+0472.096 (1) Ftp chunked upload: 6 % uploaded
+0472.173 (1) Ftp chunked upload: 6.5 % uploaded
+0472.245 (1) Ftp chunked upload: 7.1 % uploaded
+0472.310 (1) Ftp chunked upload: 7.6 % uploaded
+0472.383 (1) Ftp chunked upload: 8.1 % uploaded
+0472.448 (1) Ftp chunked upload: 8.6 % uploaded
+0472.512 (1) Ftp chunked upload: 9.1 % uploaded
+0472.580 (1) Ftp chunked upload: 9.6 % uploaded
+0472.644 (1) Ftp chunked upload: 10.1 % uploaded
+0472.708 (1) Ftp chunked upload: 10.6 % uploaded
+0472.782 (1) Ftp chunked upload: 11.1 % uploaded
+0472.857 (1) Ftp chunked upload: 11.6 % uploaded
+0472.921 (1) Ftp chunked upload: 12.1 % uploaded
+0472.987 (1) Ftp chunked upload: 12.6 % uploaded
+0473.058 (1) Ftp chunked upload: 13.1 % uploaded
+0473.130 (1) Ftp chunked upload: 13.6 % uploaded
+0473.244 (1) Ftp chunked upload: 14.1 % uploaded
+0473.314 (1) Ftp chunked upload: 14.6 % uploaded
+0473.384 (1) Ftp chunked upload: 15.1 % uploaded
+0473.471 (1) Ftp chunked upload: 15.6 % uploaded
+0473.537 (1) Ftp chunked upload: 16.1 % uploaded
+0473.625 (1) Ftp chunked upload: 16.6 % uploaded
+0473.693 (1) Ftp chunked upload: 17.1 % uploaded
+0473.760 (1) Ftp chunked upload: 17.6 % uploaded
+0473.833 (1) Ftp chunked upload: 18.1 % uploaded
+0473.899 (1) Ftp chunked upload: 18.6 % uploaded
+0473.969 (1) Ftp chunked upload: 19.1 % uploaded
+0474.038 (1) Ftp chunked upload: 19.6 % uploaded
+0474.112 (1) Ftp chunked upload: 20.1 % uploaded
+0474.175 (1) Ftp chunked upload: 20.6 % uploaded
+0474.249 (1) Ftp chunked upload: 21.1 % uploaded
+0474.315 (1) Ftp chunked upload: 21.6 % uploaded
+0474.378 (1) Ftp chunked upload: 22.2 % uploaded
+0474.452 (1) Ftp chunked upload: 22.7 % uploaded
+0474.516 (1) Ftp chunked upload: 23.2 % uploaded
+0474.580 (1) Ftp chunked upload: 23.7 % uploaded
+0474.655 (1) Ftp chunked upload: 24.2 % uploaded
+0474.724 (1) Ftp chunked upload: 24.7 % uploaded
+0474.787 (1) Ftp chunked upload: 25.2 % uploaded
+0474.861 (1) Ftp chunked upload: 25.7 % uploaded
+0474.930 (1) Ftp chunked upload: 26.2 % uploaded
+0475.027 (1) Ftp chunked upload: 26.7 % uploaded
+0475.149 (1) Ftp chunked upload: 27.2 % uploaded
+0475.281 (1) Ftp chunked upload: 27.7 % uploaded
+0475.410 (1) Ftp chunked upload: 28.2 % uploaded
+0475.519 (1) Ftp chunked upload: 28.7 % uploaded
+0475.630 (1) Ftp chunked upload: 29.2 % uploaded
+0475.748 (1) Ftp chunked upload: 29.7 % uploaded
+0475.855 (1) Ftp chunked upload: 30.2 % uploaded
+0475.956 (1) Ftp chunked upload: 30.7 % uploaded
+0476.075 (1) Ftp chunked upload: 31.2 % uploaded
+0476.180 (1) Ftp chunked upload: 31.7 % uploaded
+0476.283 (1) Ftp chunked upload: 32.2 % uploaded
+0476.402 (1) Ftp chunked upload: 32.7 % uploaded
+0476.522 (1) Ftp chunked upload: 33.2 % uploaded
+0476.644 (1) Ftp chunked upload: 33.7 % uploaded
+0476.751 (1) Ftp chunked upload: 34.2 % uploaded
+0476.880 (1) Ftp chunked upload: 34.7 % uploaded
+0477.041 (1) Ftp chunked upload: 35.2 % uploaded
+0477.165 (1) Ftp chunked upload: 35.7 % uploaded
+0477.285 (1) Ftp chunked upload: 36.2 % uploaded
+0477.410 (1) Ftp chunked upload: 36.7 % uploaded
+0477.529 (1) Ftp chunked upload: 37.3 % uploaded
+0477.657 (1) Ftp chunked upload: 37.8 % uploaded
+0477.797 (1) Ftp chunked upload: 38.3 % uploaded
+0477.919 (1) Ftp chunked upload: 38.8 % uploaded
+0478.040 (1) Ftp chunked upload: 39.3 % uploaded
+0478.160 (1) Ftp chunked upload: 39.8 % uploaded
+0478.292 (1) Ftp chunked upload: 40.3 % uploaded
+0478.416 (1) Ftp chunked upload: 40.8 % uploaded
+0478.535 (1) Ftp chunked upload: 41.3 % uploaded
+0478.656 (1) Ftp chunked upload: 41.8 % uploaded
+0478.772 (1) Ftp chunked upload: 42.3 % uploaded
+0478.877 (1) Ftp chunked upload: 42.8 % uploaded
+0478.983 (1) Ftp chunked upload: 43.3 % uploaded
+0479.094 (1) Ftp chunked upload: 43.8 % uploaded
+0479.200 (1) Ftp chunked upload: 44.3 % uploaded
+0479.307 (1) Ftp chunked upload: 44.8 % uploaded
+0479.418 (1) Ftp chunked upload: 45.3 % uploaded
+0479.532 (1) Ftp chunked upload: 45.8 % uploaded
+0479.645 (1) Ftp chunked upload: 46.3 % uploaded
+0479.746 (1) Ftp chunked upload: 46.8 % uploaded
+0479.856 (1) Ftp chunked upload: 47.3 % uploaded
+0480.024 (1) Ftp chunked upload: 47.8 % uploaded
+0480.146 (1) Ftp chunked upload: 48.3 % uploaded
+0480.252 (1) Ftp chunked upload: 48.8 % uploaded
+0480.370 (1) Ftp chunked upload: 49.3 % uploaded
+0480.490 (1) Ftp chunked upload: 49.8 % uploaded
+0480.592 (1) Ftp chunked upload: 50.3 % uploaded
+0480.708 (1) Ftp chunked upload: 50.8 % uploaded
+0480.817 (1) Ftp chunked upload: 51.3 % uploaded
+0480.888 (1) Ftp chunked upload: 51.8 % uploaded
+0480.948 (1) Ftp chunked upload: 52.4 % uploaded
+0481.008 (1) Ftp chunked upload: 52.9 % uploaded
+0481.076 (1) Ftp chunked upload: 53.4 % uploaded
+0481.145 (1) Ftp chunked upload: 53.9 % uploaded
+0481.208 (1) Ftp chunked upload: 54.4 % uploaded
+0481.281 (1) Ftp chunked upload: 54.9 % uploaded
+0481.340 (1) Ftp chunked upload: 55.4 % uploaded
+0481.406 (1) Ftp chunked upload: 55.9 % uploaded
+0481.463 (1) Ftp chunked upload: 56.4 % uploaded
+0481.527 (1) Ftp chunked upload: 56.9 % uploaded
+0481.597 (1) Ftp chunked upload: 57.4 % uploaded
+0481.654 (1) Ftp chunked upload: 57.9 % uploaded
+0481.712 (1) Ftp chunked upload: 58.4 % uploaded
+0481.769 (1) Ftp chunked upload: 58.9 % uploaded
+0481.827 (1) Ftp chunked upload: 59.4 % uploaded
+0481.886 (1) Ftp chunked upload: 59.9 % uploaded
+0481.949 (1) Ftp chunked upload: 60.4 % uploaded
+0482.018 (1) Ftp chunked upload: 60.9 % uploaded
+0482.084 (1) Ftp chunked upload: 61.4 % uploaded
+0482.157 (1) Ftp chunked upload: 61.9 % uploaded
+0482.215 (1) Ftp chunked upload: 62.4 % uploaded
+0482.281 (1) Ftp chunked upload: 62.9 % uploaded
+0482.343 (1) Ftp chunked upload: 63.4 % uploaded
+0482.402 (1) Ftp chunked upload: 63.9 % uploaded
+0482.455 (1) Ftp chunked upload: 64.4 % uploaded
+0482.510 (1) Ftp chunked upload: 64.9 % uploaded
+0482.564 (1) Ftp chunked upload: 65.4 % uploaded
+0482.619 (1) Ftp chunked upload: 65.9 % uploaded
+0482.683 (1) Ftp chunked upload: 66.4 % uploaded
+0482.743 (1) Ftp chunked upload: 66.9 % uploaded
+0482.805 (1) Ftp chunked upload: 67.5 % uploaded
+0482.867 (1) Ftp chunked upload: 68 % uploaded
+0482.933 (1) Ftp chunked upload: 68.5 % uploaded
+0482.993 (1) Ftp chunked upload: 69 % uploaded
+0483.049 (1) Ftp chunked upload: 69.5 % uploaded
+0483.115 (1) Ftp chunked upload: 70 % uploaded
+0483.172 (1) Ftp chunked upload: 70.5 % uploaded
+0483.227 (1) Ftp chunked upload: 71 % uploaded
+0483.280 (1) Ftp chunked upload: 71.5 % uploaded
+0483.335 (1) Ftp chunked upload: 72 % uploaded
+0483.388 (1) Ftp chunked upload: 72.5 % uploaded
+0483.454 (1) Ftp chunked upload: 73 % uploaded
+0483.510 (1) Ftp chunked upload: 73.5 % uploaded
+0483.569 (1) Ftp chunked upload: 74 % uploaded
+0483.626 (1) Ftp chunked upload: 74.5 % uploaded
+0483.691 (1) Ftp chunked upload: 75 % uploaded
+0483.749 (1) Ftp chunked upload: 75.5 % uploaded
+0483.805 (1) Ftp chunked upload: 76 % uploaded
+0483.860 (1) Ftp chunked upload: 76.5 % uploaded
+0483.914 (1) Ftp chunked upload: 77 % uploaded
+0483.967 (1) Ftp chunked upload: 77.5 % uploaded
+0484.032 (1) Ftp chunked upload: 78 % uploaded
+0484.103 (1) Ftp chunked upload: 78.5 % uploaded
+0484.164 (1) Ftp chunked upload: 79 % uploaded
+0484.243 (1) Ftp chunked upload: 79.5 % uploaded
+0484.298 (1) Ftp chunked upload: 80 % uploaded
+0484.352 (1) Ftp chunked upload: 80.5 % uploaded
+0484.405 (1) Ftp chunked upload: 81 % uploaded
+0484.459 (1) Ftp chunked upload: 81.5 % uploaded
+0484.522 (1) Ftp chunked upload: 82 % uploaded
+0484.578 (1) Ftp chunked upload: 82.6 % uploaded
+0484.631 (1) Ftp chunked upload: 83.1 % uploaded
+0484.713 (1) Ftp chunked upload: 83.6 % uploaded
+0484.773 (1) Ftp chunked upload: 84.1 % uploaded
+0484.832 (1) Ftp chunked upload: 84.6 % uploaded
+0484.895 (1) Ftp chunked upload: 85.1 % uploaded
+0484.967 (1) Ftp chunked upload: 85.6 % uploaded
+0485.027 (1) Ftp chunked upload: 86.1 % uploaded
+0485.093 (1) Ftp chunked upload: 86.6 % uploaded
+0485.152 (1) Ftp chunked upload: 87.1 % uploaded
+0485.216 (1) Ftp chunked upload: 87.6 % uploaded
+0485.283 (1) Ftp chunked upload: 88.1 % uploaded
+0485.344 (1) Ftp chunked upload: 88.6 % uploaded
+0485.402 (1) Ftp chunked upload: 89.1 % uploaded
+0485.459 (1) Ftp chunked upload: 89.6 % uploaded
+0485.521 (1) Ftp chunked upload: 90.1 % uploaded
+0485.585 (1) Ftp chunked upload: 90.6 % uploaded
+0485.644 (1) Ftp chunked upload: 91.1 % uploaded
+0485.701 (1) Ftp chunked upload: 91.6 % uploaded
+0485.760 (1) Ftp chunked upload: 92.1 % uploaded
+0485.867 (1) Ftp chunked upload: 92.6 % uploaded
+0485.928 (1) Ftp chunked upload: 93.1 % uploaded
+0485.987 (1) Ftp chunked upload: 93.6 % uploaded
+0486.054 (1) Ftp chunked upload: 94.1 % uploaded
+0486.111 (1) Ftp chunked upload: 94.6 % uploaded
+0486.185 (1) Ftp chunked upload: 95.1 % uploaded
+0486.259 (1) Ftp chunked upload: 95.6 % uploaded
+0486.317 (1) Ftp chunked upload: 96.1 % uploaded
+0486.383 (1) Ftp chunked upload: 96.6 % uploaded
+0486.439 (1) Ftp chunked upload: 97.1 % uploaded
+0486.503 (1) Ftp chunked upload: 97.7 % uploaded
+0486.561 (1) Ftp chunked upload: 98.2 % uploaded
+0486.618 (1) Ftp chunked upload: 98.7 % uploaded
+0486.684 (1) Ftp chunked upload: 99.2 % uploaded
+0486.754 (1) Ftp chunked upload: 99.7 % uploaded
+0486.807 (1) FTP: upload attempt successful (407576.1KB in 16.05s)
+0486.809 (1) Recording as successfully uploaded: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip
+0486.839 (1) Deleting local file: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip: OK
+0486.856 (1) FTP: upload attempt: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip -> ftp://backup@115.24.161.46/ai.hebut.edu.cn/backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip
+0487.240 (1) Ftp chunked upload: 0.1 % uploaded
+0487.283 (1) Ftp chunked upload: 0.3 % uploaded
+0487.308 (1) Ftp chunked upload: 0.4 % uploaded
+0487.332 (1) Ftp chunked upload: 0.5 % uploaded
+0487.381 (1) Ftp chunked upload: 0.8 % uploaded
+0487.422 (1) Ftp chunked upload: 1 % uploaded
+0487.486 (1) Ftp chunked upload: 1.5 % uploaded
+0487.565 (1) Ftp chunked upload: 2 % uploaded
+0487.641 (1) Ftp chunked upload: 2.5 % uploaded
+0487.708 (1) Ftp chunked upload: 3 % uploaded
+0487.781 (1) Ftp chunked upload: 3.5 % uploaded
+0487.861 (1) Ftp chunked upload: 4 % uploaded
+0487.932 (1) Ftp chunked upload: 4.5 % uploaded
+0489.197 (1) Ftp chunked upload: 5 % uploaded
+0489.294 (1) Ftp chunked upload: 5.5 % uploaded
+0489.368 (1) Ftp chunked upload: 6 % uploaded
+0489.436 (1) Ftp chunked upload: 6.5 % uploaded
+0489.522 (1) Ftp chunked upload: 7 % uploaded
+0489.601 (1) Ftp chunked upload: 7.5 % uploaded
+0489.669 (1) Ftp chunked upload: 8 % uploaded
+0489.747 (1) Ftp chunked upload: 8.5 % uploaded
+0489.828 (1) Ftp chunked upload: 9 % uploaded
+0489.898 (1) Ftp chunked upload: 9.6 % uploaded
+0489.967 (1) Ftp chunked upload: 10.1 % uploaded
+0490.050 (1) Ftp chunked upload: 10.6 % uploaded
+0490.122 (1) Ftp chunked upload: 11.1 % uploaded
+0490.191 (1) Ftp chunked upload: 11.6 % uploaded
+0490.267 (1) Ftp chunked upload: 12.1 % uploaded
+0490.332 (1) Ftp chunked upload: 12.6 % uploaded
+0490.402 (1) Ftp chunked upload: 13.1 % uploaded
+0490.473 (1) Ftp chunked upload: 13.6 % uploaded
+0490.544 (1) Ftp chunked upload: 14.1 % uploaded
+0490.613 (1) Ftp chunked upload: 14.6 % uploaded
+0490.690 (1) Ftp chunked upload: 15.1 % uploaded
+0490.757 (1) Ftp chunked upload: 15.6 % uploaded
+0490.832 (1) Ftp chunked upload: 16.1 % uploaded
+0490.897 (1) Ftp chunked upload: 16.6 % uploaded
+0490.973 (1) Ftp chunked upload: 17.1 % uploaded
+0491.051 (1) Ftp chunked upload: 17.6 % uploaded
+0491.121 (1) Ftp chunked upload: 18.1 % uploaded
+0491.193 (1) Ftp chunked upload: 18.6 % uploaded
+0491.267 (1) Ftp chunked upload: 19.1 % uploaded
+0491.417 (1) Ftp chunked upload: 19.6 % uploaded
+0491.491 (1) Ftp chunked upload: 20.1 % uploaded
+0491.557 (1) Ftp chunked upload: 20.6 % uploaded
+0491.623 (1) Ftp chunked upload: 21.1 % uploaded
+0491.690 (1) Ftp chunked upload: 21.6 % uploaded
+0491.770 (1) Ftp chunked upload: 22.1 % uploaded
+0491.844 (1) Ftp chunked upload: 22.6 % uploaded
+0491.911 (1) Ftp chunked upload: 23.1 % uploaded
+0491.981 (1) Ftp chunked upload: 23.6 % uploaded
+0492.049 (1) Ftp chunked upload: 24.1 % uploaded
+0492.119 (1) Ftp chunked upload: 24.6 % uploaded
+0492.210 (1) Ftp chunked upload: 25.1 % uploaded
+0492.279 (1) Ftp chunked upload: 25.6 % uploaded
+0492.343 (1) Ftp chunked upload: 26.1 % uploaded
+0492.417 (1) Ftp chunked upload: 26.6 % uploaded
+0492.495 (1) Ftp chunked upload: 27.1 % uploaded
+0492.561 (1) Ftp chunked upload: 27.6 % uploaded
+0492.628 (1) Ftp chunked upload: 28.1 % uploaded
+0492.714 (1) Ftp chunked upload: 28.6 % uploaded
+0492.780 (1) Ftp chunked upload: 29.2 % uploaded
+0492.846 (1) Ftp chunked upload: 29.7 % uploaded
+0492.930 (1) Ftp chunked upload: 30.2 % uploaded
+0492.998 (1) Ftp chunked upload: 30.7 % uploaded
+0493.082 (1) Ftp chunked upload: 31.2 % uploaded
+0493.173 (1) Ftp chunked upload: 31.7 % uploaded
+0493.241 (1) Ftp chunked upload: 32.2 % uploaded
+0493.313 (1) Ftp chunked upload: 32.7 % uploaded
+0493.384 (1) Ftp chunked upload: 33.2 % uploaded
+0493.452 (1) Ftp chunked upload: 33.7 % uploaded
+0493.521 (1) Ftp chunked upload: 34.2 % uploaded
+0493.591 (1) Ftp chunked upload: 34.7 % uploaded
+0493.675 (1) Ftp chunked upload: 35.2 % uploaded
+0493.903 (1) Ftp chunked upload: 35.7 % uploaded
+0493.976 (1) Ftp chunked upload: 36.2 % uploaded
+0494.054 (1) Ftp chunked upload: 36.7 % uploaded
+0494.119 (1) Ftp chunked upload: 37.2 % uploaded
+0494.190 (1) Ftp chunked upload: 37.7 % uploaded
+0494.269 (1) Ftp chunked upload: 38.2 % uploaded
+0494.338 (1) Ftp chunked upload: 38.7 % uploaded
+0494.402 (1) Ftp chunked upload: 39.2 % uploaded
+0494.487 (1) Ftp chunked upload: 39.7 % uploaded
+0494.563 (1) Ftp chunked upload: 40.2 % uploaded
+0494.627 (1) Ftp chunked upload: 40.7 % uploaded
+0494.705 (1) Ftp chunked upload: 41.2 % uploaded
+0494.806 (1) Ftp chunked upload: 41.7 % uploaded
+0494.898 (1) Ftp chunked upload: 42.2 % uploaded
+0494.979 (1) Ftp chunked upload: 42.7 % uploaded
+0495.082 (1) Ftp chunked upload: 43.2 % uploaded
+0495.175 (1) Ftp chunked upload: 43.7 % uploaded
+0495.278 (1) Ftp chunked upload: 44.2 % uploaded
+0495.352 (1) Ftp chunked upload: 44.7 % uploaded
+0495.426 (1) Ftp chunked upload: 45.2 % uploaded
+0495.508 (1) Ftp chunked upload: 45.7 % uploaded
+0495.581 (1) Ftp chunked upload: 46.2 % uploaded
+0495.658 (1) Ftp chunked upload: 46.7 % uploaded
+0495.732 (1) Ftp chunked upload: 47.2 % uploaded
+0495.803 (1) Ftp chunked upload: 47.7 % uploaded
+0495.879 (1) Ftp chunked upload: 48.2 % uploaded
+0495.954 (1) Ftp chunked upload: 48.8 % uploaded
+0496.020 (1) Ftp chunked upload: 49.3 % uploaded
+0496.090 (1) Ftp chunked upload: 49.8 % uploaded
+0496.156 (1) Ftp chunked upload: 50.3 % uploaded
+0496.221 (1) Ftp chunked upload: 50.8 % uploaded
+0496.309 (1) Ftp chunked upload: 51.3 % uploaded
+0496.376 (1) Ftp chunked upload: 51.8 % uploaded
+0496.439 (1) Ftp chunked upload: 52.3 % uploaded
+0496.509 (1) Ftp chunked upload: 52.8 % uploaded
+0496.583 (1) Ftp chunked upload: 53.3 % uploaded
+0496.649 (1) Ftp chunked upload: 53.8 % uploaded
+0496.768 (1) Ftp chunked upload: 54.3 % uploaded
+0496.846 (1) Ftp chunked upload: 54.8 % uploaded
+0496.916 (1) Ftp chunked upload: 55.3 % uploaded
+0496.995 (1) Ftp chunked upload: 55.8 % uploaded
+0497.064 (1) Ftp chunked upload: 56.3 % uploaded
+0497.132 (1) Ftp chunked upload: 56.8 % uploaded
+0497.271 (1) Ftp chunked upload: 57.3 % uploaded
+0497.339 (1) Ftp chunked upload: 57.8 % uploaded
+0497.426 (1) Ftp chunked upload: 58.3 % uploaded
+0497.497 (1) Ftp chunked upload: 58.8 % uploaded
+0497.565 (1) Ftp chunked upload: 59.3 % uploaded
+0497.645 (1) Ftp chunked upload: 59.8 % uploaded
+0497.716 (1) Ftp chunked upload: 60.3 % uploaded
+0497.784 (1) Ftp chunked upload: 60.8 % uploaded
+0497.871 (1) Ftp chunked upload: 61.3 % uploaded
+0497.945 (1) Ftp chunked upload: 61.8 % uploaded
+0498.010 (1) Ftp chunked upload: 62.3 % uploaded
+0498.083 (1) Ftp chunked upload: 62.8 % uploaded
+0498.166 (1) Ftp chunked upload: 63.3 % uploaded
+0498.232 (1) Ftp chunked upload: 63.8 % uploaded
+0498.300 (1) Ftp chunked upload: 64.3 % uploaded
+0498.365 (1) Ftp chunked upload: 64.8 % uploaded
+0498.441 (1) Ftp chunked upload: 65.3 % uploaded
+0498.513 (1) Ftp chunked upload: 65.8 % uploaded
+0498.583 (1) Ftp chunked upload: 66.3 % uploaded
+0498.664 (1) Ftp chunked upload: 66.8 % uploaded
+0498.733 (1) Ftp chunked upload: 67.3 % uploaded
+0498.804 (1) Ftp chunked upload: 67.8 % uploaded
+0498.877 (1) Ftp chunked upload: 68.3 % uploaded
+0498.965 (1) Ftp chunked upload: 68.9 % uploaded
+0499.039 (1) Ftp chunked upload: 69.4 % uploaded
+0499.115 (1) Ftp chunked upload: 69.9 % uploaded
+0499.182 (1) Ftp chunked upload: 70.4 % uploaded
+0499.255 (1) Ftp chunked upload: 70.9 % uploaded
+0499.333 (1) Ftp chunked upload: 71.4 % uploaded
+0499.413 (1) Ftp chunked upload: 71.9 % uploaded
+0668.934 (2) Opened log file at time: Fri, 21 Jun 2019 09:24:01 +0000 on http://ai.hebut.edu.cn
+0668.936 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 5.2.2 PHP: 5.6.31 (fpm-fcgi, Linux HEBUT-SCSE-WWW 2.6.32-754.9.1.el6.x86_64 #1 SMP Thu Dec 6 08:02:15 UTC 2018 x86_64) MySQL: 5.7.24 WPLANG: zh_CN Server: nginx/1.14.2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 47.2M | 48.3M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0668.938 (2) Free space on disk containing Updraft's temporary directory: 11710.8 MB
+0668.956 (2) Backup run: resumption=2, nonce=7e7c5589afe4, file_nonce=7e7c5589afe4 begun at=1561108372 (669s ago), job type=backup, previous check-in=156.1s
+0668.969 (2) Scheduling a resumption (3) after 300 seconds (1561109341) in case this run gets aborted
+0669.028 (2) Checking if we have a zip executable available
+0669.044 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+0669.048 (2) Creation of backups of directories: already finished
+0669.054 (2) Saving backup status to database (elements: 11)
+0669.073 (2) Database dump (WordPress DB): Creation was completed already
+0669.091 (2) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-plugins.zip: plugins: This file has already been successfully uploaded
+0669.093 (2) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-themes.zip: themes: This file has already been successfully uploaded
+0669.095 (2) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads.zip: uploads: This file has already been successfully uploaded
+0669.097 (2) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+0669.099 (2) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip: uploads: This file has not yet been successfully uploaded: will queue
+0669.101 (2) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads4.zip: uploads: This file has not yet been successfully uploaded: will queue
+0669.104 (2) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-others.zip: others: This file has not yet been successfully uploaded: will queue
+0669.106 (2) backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db.gz: db: This file has not yet been successfully uploaded: will queue
+0669.108 (2) Saving backup history. Total backup size: 1.5 GB
+0669.121 (2) Requesting upload of the files that have not yet been successfully uploaded (5)
+0669.124 (2) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0669.131 (2) Beginning dispatch of backup to remote (ftp) (instance identifier s-975962e60e96d791513592e27e579e10)
+0669.206 (2) FTP: upload attempt: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip -> ftp://backup@115.24.161.46/ai.hebut.edu.cn/backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip
+0669.211 (2) File already exists at remote site: size 302522220. Will attempt resumption.
+0669.276 (2) Ftp chunked upload: 72.9 % uploaded
+0669.341 (2) Ftp chunked upload: 73.4 % uploaded
+0669.421 (2) Ftp chunked upload: 73.9 % uploaded
+0669.531 (2) Ftp chunked upload: 74.4 % uploaded
+0669.648 (2) Ftp chunked upload: 74.9 % uploaded
+0669.772 (2) Ftp chunked upload: 75.4 % uploaded
+0669.901 (2) Ftp chunked upload: 75.9 % uploaded
+0670.026 (2) Ftp chunked upload: 76.4 % uploaded
+0670.158 (2) Ftp chunked upload: 76.9 % uploaded
+0670.282 (2) Ftp chunked upload: 77.4 % uploaded
+0670.404 (2) Ftp chunked upload: 77.9 % uploaded
+0670.533 (2) Ftp chunked upload: 78.4 % uploaded
+0670.658 (2) Ftp chunked upload: 78.9 % uploaded
+0670.792 (2) Ftp chunked upload: 79.4 % uploaded
+0670.915 (2) Ftp chunked upload: 79.9 % uploaded
+0671.047 (2) Ftp chunked upload: 80.4 % uploaded
+0671.162 (2) Ftp chunked upload: 80.9 % uploaded
+0671.280 (2) Ftp chunked upload: 81.4 % uploaded
+0671.469 (2) Ftp chunked upload: 81.9 % uploaded
+0671.598 (2) Ftp chunked upload: 82.4 % uploaded
+0671.744 (2) Ftp chunked upload: 82.9 % uploaded
+0671.874 (2) Ftp chunked upload: 83.4 % uploaded
+0671.996 (2) Ftp chunked upload: 83.9 % uploaded
+0672.120 (2) Ftp chunked upload: 84.4 % uploaded
+0672.242 (2) Ftp chunked upload: 84.9 % uploaded
+0672.353 (2) Ftp chunked upload: 85.4 % uploaded
+0672.464 (2) Ftp chunked upload: 85.9 % uploaded
+0672.574 (2) Ftp chunked upload: 86.4 % uploaded
+0672.691 (2) Ftp chunked upload: 86.9 % uploaded
+0672.805 (2) Ftp chunked upload: 87.4 % uploaded
+0672.924 (2) Ftp chunked upload: 87.9 % uploaded
+0673.040 (2) Ftp chunked upload: 88.5 % uploaded
+0673.149 (2) Ftp chunked upload: 89 % uploaded
+0673.260 (2) Ftp chunked upload: 89.5 % uploaded
+0673.387 (2) Ftp chunked upload: 90 % uploaded
+0673.501 (2) Ftp chunked upload: 90.5 % uploaded
+0673.614 (2) Ftp chunked upload: 91 % uploaded
+0673.733 (2) Ftp chunked upload: 91.5 % uploaded
+0673.842 (2) Ftp chunked upload: 92 % uploaded
+0673.950 (2) Ftp chunked upload: 92.5 % uploaded
+0674.059 (2) Ftp chunked upload: 93 % uploaded
+0674.171 (2) Ftp chunked upload: 93.5 % uploaded
+0674.287 (2) Ftp chunked upload: 94 % uploaded
+0674.399 (2) Ftp chunked upload: 94.5 % uploaded
+0674.473 (2) Ftp chunked upload: 95 % uploaded
+0674.541 (2) Ftp chunked upload: 95.5 % uploaded
+0674.604 (2) Ftp chunked upload: 96 % uploaded
+0674.675 (2) Ftp chunked upload: 96.5 % uploaded
+0674.737 (2) Ftp chunked upload: 97 % uploaded
+0674.798 (2) Ftp chunked upload: 97.5 % uploaded
+0674.865 (2) Ftp chunked upload: 98 % uploaded
+0674.938 (2) Ftp chunked upload: 98.5 % uploaded
+0675.008 (2) Ftp chunked upload: 99 % uploaded
+0675.067 (2) Ftp chunked upload: 99.5 % uploaded
+0675.123 (2) FTP: upload attempt successful (408223.9KB in 5.91s)
+0675.125 (2) Recording as successfully uploaded: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip
+0675.164 (2) Deleting local file: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads2.zip: OK
+0675.178 (2) FTP: upload attempt: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip -> ftp://backup@115.24.161.46/ai.hebut.edu.cn/backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip
+0675.199 (2) Ftp chunked upload: 0.1 % uploaded
+0675.232 (2) Ftp chunked upload: 0.3 % uploaded
+0675.260 (2) Ftp chunked upload: 0.4 % uploaded
+0675.284 (2) Ftp chunked upload: 0.5 % uploaded
+0675.324 (2) Ftp chunked upload: 0.8 % uploaded
+0675.378 (2) Ftp chunked upload: 1 % uploaded
+0675.436 (2) Ftp chunked upload: 1.5 % uploaded
+0675.494 (2) Ftp chunked upload: 2 % uploaded
+0675.569 (2) Ftp chunked upload: 2.6 % uploaded
+0675.635 (2) Ftp chunked upload: 3.1 % uploaded
+0675.696 (2) Ftp chunked upload: 3.6 % uploaded
+0675.763 (2) Ftp chunked upload: 4.1 % uploaded
+0675.824 (2) Ftp chunked upload: 4.6 % uploaded
+0675.888 (2) Ftp chunked upload: 5.1 % uploaded
+0675.960 (2) Ftp chunked upload: 5.6 % uploaded
+0676.028 (2) Ftp chunked upload: 6.1 % uploaded
+0676.091 (2) Ftp chunked upload: 6.6 % uploaded
+0676.148 (2) Ftp chunked upload: 7.1 % uploaded
+0676.223 (2) Ftp chunked upload: 7.6 % uploaded
+0676.280 (2) Ftp chunked upload: 8.2 % uploaded
+0676.404 (2) Ftp chunked upload: 8.7 % uploaded
+0676.466 (2) Ftp chunked upload: 9.2 % uploaded
+0676.524 (2) Ftp chunked upload: 9.7 % uploaded
+0676.582 (2) Ftp chunked upload: 10.2 % uploaded
+0676.643 (2) Ftp chunked upload: 10.7 % uploaded
+0676.700 (2) Ftp chunked upload: 11.2 % uploaded
+0676.757 (2) Ftp chunked upload: 11.7 % uploaded
+0676.816 (2) Ftp chunked upload: 12.2 % uploaded
+0676.874 (2) Ftp chunked upload: 12.7 % uploaded
+0676.934 (2) Ftp chunked upload: 13.3 % uploaded
+0676.993 (2) Ftp chunked upload: 13.8 % uploaded
+0677.055 (2) Ftp chunked upload: 14.3 % uploaded
+0677.114 (2) Ftp chunked upload: 14.8 % uploaded
+0677.177 (2) Ftp chunked upload: 15.3 % uploaded
+0677.235 (2) Ftp chunked upload: 15.8 % uploaded
+0677.303 (2) Ftp chunked upload: 16.3 % uploaded
+0677.368 (2) Ftp chunked upload: 16.8 % uploaded
+0677.430 (2) Ftp chunked upload: 17.3 % uploaded
+0677.488 (2) Ftp chunked upload: 17.8 % uploaded
+0677.543 (2) Ftp chunked upload: 18.4 % uploaded
+0677.606 (2) Ftp chunked upload: 18.9 % uploaded
+0677.669 (2) Ftp chunked upload: 19.4 % uploaded
+0677.734 (2) Ftp chunked upload: 19.9 % uploaded
+0677.800 (2) Ftp chunked upload: 20.4 % uploaded
+0677.913 (2) Ftp chunked upload: 20.9 % uploaded
+0677.967 (2) Ftp chunked upload: 21.4 % uploaded
+0678.023 (2) Ftp chunked upload: 21.9 % uploaded
+0678.082 (2) Ftp chunked upload: 22.4 % uploaded
+0678.157 (2) Ftp chunked upload: 22.9 % uploaded
+0678.212 (2) Ftp chunked upload: 23.4 % uploaded
+0678.347 (2) Ftp chunked upload: 24 % uploaded
+0678.515 (2) Ftp chunked upload: 24.5 % uploaded
+0678.681 (2) Ftp chunked upload: 25 % uploaded
+0678.860 (2) Ftp chunked upload: 25.5 % uploaded
+0679.040 (2) Ftp chunked upload: 26 % uploaded
+0679.221 (2) Ftp chunked upload: 26.5 % uploaded
+0679.436 (2) Ftp chunked upload: 27 % uploaded
+0679.603 (2) Ftp chunked upload: 27.5 % uploaded
+0679.784 (2) Ftp chunked upload: 28 % uploaded
+0679.975 (2) Ftp chunked upload: 28.5 % uploaded
+0680.046 (2) Ftp chunked upload: 29.1 % uploaded
+0680.123 (2) Ftp chunked upload: 29.6 % uploaded
+0680.190 (2) Ftp chunked upload: 30.1 % uploaded
+0680.256 (2) Ftp chunked upload: 30.6 % uploaded
+0680.340 (2) Ftp chunked upload: 31.1 % uploaded
+0680.401 (2) Ftp chunked upload: 31.6 % uploaded
+0680.466 (2) Ftp chunked upload: 32.1 % uploaded
+0680.527 (2) Ftp chunked upload: 32.6 % uploaded
+0680.593 (2) Ftp chunked upload: 33.1 % uploaded
+0680.658 (2) Ftp chunked upload: 33.6 % uploaded
+0680.717 (2) Ftp chunked upload: 34.2 % uploaded
+0680.781 (2) Ftp chunked upload: 34.7 % uploaded
+0680.843 (2) Ftp chunked upload: 35.2 % uploaded
+0680.898 (2) Ftp chunked upload: 35.7 % uploaded
+0680.965 (2) Ftp chunked upload: 36.2 % uploaded
+0681.019 (2) Ftp chunked upload: 36.7 % uploaded
+0681.086 (2) Ftp chunked upload: 37.2 % uploaded
+0681.144 (2) Ftp chunked upload: 37.7 % uploaded
+0681.210 (2) Ftp chunked upload: 38.2 % uploaded
+0681.285 (2) Ftp chunked upload: 38.7 % uploaded
+0681.354 (2) Ftp chunked upload: 39.2 % uploaded
+0681.414 (2) Ftp chunked upload: 39.8 % uploaded
+0681.470 (2) Ftp chunked upload: 40.3 % uploaded
+0681.536 (2) Ftp chunked upload: 40.8 % uploaded
+0681.603 (2) Ftp chunked upload: 41.3 % uploaded
+0681.660 (2) Ftp chunked upload: 41.8 % uploaded
+0681.714 (2) Ftp chunked upload: 42.3 % uploaded
+0681.783 (2) Ftp chunked upload: 42.8 % uploaded
+0681.839 (2) Ftp chunked upload: 43.3 % uploaded
+0681.901 (2) Ftp chunked upload: 43.8 % uploaded
+0681.966 (2) Ftp chunked upload: 44.3 % uploaded
+0682.034 (2) Ftp chunked upload: 44.9 % uploaded
+0682.093 (2) Ftp chunked upload: 45.4 % uploaded
+0682.153 (2) Ftp chunked upload: 45.9 % uploaded
+0682.216 (2) Ftp chunked upload: 46.4 % uploaded
+0682.278 (2) Ftp chunked upload: 46.9 % uploaded
+0682.351 (2) Ftp chunked upload: 47.4 % uploaded
+0682.407 (2) Ftp chunked upload: 47.9 % uploaded
+0682.471 (2) Ftp chunked upload: 48.4 % uploaded
+0682.534 (2) Ftp chunked upload: 48.9 % uploaded
+0682.592 (2) Ftp chunked upload: 49.4 % uploaded
+0682.656 (2) Ftp chunked upload: 50 % uploaded
+0682.721 (2) Ftp chunked upload: 50.5 % uploaded
+0682.779 (2) Ftp chunked upload: 51 % uploaded
+0682.848 (2) Ftp chunked upload: 51.5 % uploaded
+0682.922 (2) Ftp chunked upload: 52 % uploaded
+0682.979 (2) Ftp chunked upload: 52.5 % uploaded
+0683.043 (2) Ftp chunked upload: 53 % uploaded
+0683.116 (2) Ftp chunked upload: 53.5 % uploaded
+0683.183 (2) Ftp chunked upload: 54 % uploaded
+0683.244 (2) Ftp chunked upload: 54.5 % uploaded
+0683.310 (2) Ftp chunked upload: 55 % uploaded
+0683.373 (2) Ftp chunked upload: 55.6 % uploaded
+0683.432 (2) Ftp chunked upload: 56.1 % uploaded
+0683.486 (2) Ftp chunked upload: 56.6 % uploaded
+0683.541 (2) Ftp chunked upload: 57.1 % uploaded
+0683.595 (2) Ftp chunked upload: 57.6 % uploaded
+0683.651 (2) Ftp chunked upload: 58.1 % uploaded
+0683.722 (2) Ftp chunked upload: 58.6 % uploaded
+0683.784 (2) Ftp chunked upload: 59.1 % uploaded
+0683.842 (2) Ftp chunked upload: 59.6 % uploaded
+0683.901 (2) Ftp chunked upload: 60.1 % uploaded
+0683.955 (2) Ftp chunked upload: 60.7 % uploaded
+0684.011 (2) Ftp chunked upload: 61.2 % uploaded
+0684.068 (2) Ftp chunked upload: 61.7 % uploaded
+0684.134 (2) Ftp chunked upload: 62.2 % uploaded
+0684.195 (2) Ftp chunked upload: 62.7 % uploaded
+0684.257 (2) Ftp chunked upload: 63.2 % uploaded
+0684.311 (2) Ftp chunked upload: 63.7 % uploaded
+0684.366 (2) Ftp chunked upload: 64.2 % uploaded
+0684.426 (2) Ftp chunked upload: 64.7 % uploaded
+0684.485 (2) Ftp chunked upload: 65.2 % uploaded
+0684.539 (2) Ftp chunked upload: 65.7 % uploaded
+0684.602 (2) Ftp chunked upload: 66.3 % uploaded
+0684.667 (2) Ftp chunked upload: 66.8 % uploaded
+0684.723 (2) Ftp chunked upload: 67.3 % uploaded
+0684.786 (2) Ftp chunked upload: 67.8 % uploaded
+0684.850 (2) Ftp chunked upload: 68.3 % uploaded
+0684.908 (2) Ftp chunked upload: 68.8 % uploaded
+0684.965 (2) Ftp chunked upload: 69.3 % uploaded
+0685.020 (2) Ftp chunked upload: 69.8 % uploaded
+0685.075 (2) Ftp chunked upload: 70.3 % uploaded
+0685.140 (2) Ftp chunked upload: 70.8 % uploaded
+0685.197 (2) Ftp chunked upload: 71.4 % uploaded
+0685.254 (2) Ftp chunked upload: 71.9 % uploaded
+0685.323 (2) Ftp chunked upload: 72.4 % uploaded
+0685.390 (2) Ftp chunked upload: 72.9 % uploaded
+0685.455 (2) Ftp chunked upload: 73.4 % uploaded
+0685.508 (2) Ftp chunked upload: 73.9 % uploaded
+0685.571 (2) Ftp chunked upload: 74.4 % uploaded
+0685.636 (2) Ftp chunked upload: 74.9 % uploaded
+0685.698 (2) Ftp chunked upload: 75.4 % uploaded
+0685.756 (2) Ftp chunked upload: 75.9 % uploaded
+0685.812 (2) Ftp chunked upload: 76.5 % uploaded
+0685.865 (2) Ftp chunked upload: 77 % uploaded
+0685.926 (2) Ftp chunked upload: 77.5 % uploaded
+0685.993 (2) Ftp chunked upload: 78 % uploaded
+0686.053 (2) Ftp chunked upload: 78.5 % uploaded
+0686.115 (2) Ftp chunked upload: 79 % uploaded
+0686.174 (2) Ftp chunked upload: 79.5 % uploaded
+0686.229 (2) Ftp chunked upload: 80 % uploaded
+0686.296 (2) Ftp chunked upload: 80.5 % uploaded
+0686.369 (2) Ftp chunked upload: 81 % uploaded
+0686.426 (2) Ftp chunked upload: 81.5 % uploaded
+0686.489 (2) Ftp chunked upload: 82.1 % uploaded
+0686.554 (2) Ftp chunked upload: 82.6 % uploaded
+0686.608 (2) Ftp chunked upload: 83.1 % uploaded
+0686.673 (2) Ftp chunked upload: 83.6 % uploaded
+0686.741 (2) Ftp chunked upload: 84.1 % uploaded
+0686.796 (2) Ftp chunked upload: 84.6 % uploaded
+0686.851 (2) Ftp chunked upload: 85.1 % uploaded
+0686.915 (2) Ftp chunked upload: 85.6 % uploaded
+0686.976 (2) Ftp chunked upload: 86.1 % uploaded
+0687.041 (2) Ftp chunked upload: 86.6 % uploaded
+0687.122 (2) Ftp chunked upload: 87.2 % uploaded
+0687.183 (2) Ftp chunked upload: 87.7 % uploaded
+0687.240 (2) Ftp chunked upload: 88.2 % uploaded
+0687.298 (2) Ftp chunked upload: 88.7 % uploaded
+0687.356 (2) Ftp chunked upload: 89.2 % uploaded
+0687.426 (2) Ftp chunked upload: 89.7 % uploaded
+0687.489 (2) Ftp chunked upload: 90.2 % uploaded
+0687.546 (2) Ftp chunked upload: 90.7 % uploaded
+0687.613 (2) Ftp chunked upload: 91.2 % uploaded
+0687.668 (2) Ftp chunked upload: 91.7 % uploaded
+0687.721 (2) Ftp chunked upload: 92.3 % uploaded
+0687.852 (2) Ftp chunked upload: 92.8 % uploaded
+0687.916 (2) Ftp chunked upload: 93.3 % uploaded
+0687.976 (2) Ftp chunked upload: 93.8 % uploaded
+0688.030 (2) Ftp chunked upload: 94.3 % uploaded
+0688.095 (2) Ftp chunked upload: 94.8 % uploaded
+0688.154 (2) Ftp chunked upload: 95.3 % uploaded
+0688.208 (2) Ftp chunked upload: 95.8 % uploaded
+0688.277 (2) Ftp chunked upload: 96.3 % uploaded
+0688.338 (2) Ftp chunked upload: 96.8 % uploaded
+0688.407 (2) Ftp chunked upload: 97.3 % uploaded
+0688.461 (2) Ftp chunked upload: 97.9 % uploaded
+0688.523 (2) Ftp chunked upload: 98.4 % uploaded
+0688.592 (2) Ftp chunked upload: 98.9 % uploaded
+0688.648 (2) Ftp chunked upload: 99.4 % uploaded
+0688.730 (2) Ftp chunked upload: 99.9 % uploaded
+0688.746 (2) FTP: upload attempt successful (402524.3KB in 13.57s)
+0688.748 (2) Recording as successfully uploaded: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip
+0688.791 (2) Deleting local file: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads3.zip: OK
+0688.810 (2) FTP: upload attempt: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads4.zip -> ftp://backup@115.24.161.46/ai.hebut.edu.cn/backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads4.zip
+0688.828 (2) Ftp chunked upload: 0.2 % uploaded
+0688.860 (2) Ftp chunked upload: 0.5 % uploaded
+0688.881 (2) Ftp chunked upload: 0.7 % uploaded
+0688.900 (2) Ftp chunked upload: 0.9 % uploaded
+0688.937 (2) Ftp chunked upload: 1.4 % uploaded
+0688.978 (2) Ftp chunked upload: 1.8 % uploaded
+0689.034 (2) Ftp chunked upload: 2.8 % uploaded
+0689.098 (2) Ftp chunked upload: 3.7 % uploaded
+0689.170 (2) Ftp chunked upload: 4.6 % uploaded
+0689.227 (2) Ftp chunked upload: 5.5 % uploaded
+0689.286 (2) Ftp chunked upload: 6.4 % uploaded
+0689.354 (2) Ftp chunked upload: 7.4 % uploaded
+0689.408 (2) Ftp chunked upload: 8.3 % uploaded
+0689.465 (2) Ftp chunked upload: 9.2 % uploaded
+0689.533 (2) Ftp chunked upload: 10.1 % uploaded
+0689.592 (2) Ftp chunked upload: 11 % uploaded
+0689.646 (2) Ftp chunked upload: 12 % uploaded
+0689.710 (2) Ftp chunked upload: 12.9 % uploaded
+0689.772 (2) Ftp chunked upload: 13.8 % uploaded
+0689.825 (2) Ftp chunked upload: 14.7 % uploaded
+0689.878 (2) Ftp chunked upload: 15.6 % uploaded
+0689.934 (2) Ftp chunked upload: 16.5 % uploaded
+0690.001 (2) Ftp chunked upload: 17.5 % uploaded
+0690.060 (2) Ftp chunked upload: 18.4 % uploaded
+0690.119 (2) Ftp chunked upload: 19.3 % uploaded
+0690.201 (2) Ftp chunked upload: 20.2 % uploaded
+0690.264 (2) Ftp chunked upload: 21.1 % uploaded
+0690.329 (2) Ftp chunked upload: 22.1 % uploaded
+0690.387 (2) Ftp chunked upload: 23 % uploaded
+0690.451 (2) Ftp chunked upload: 23.9 % uploaded
+0690.508 (2) Ftp chunked upload: 24.8 % uploaded
+0690.562 (2) Ftp chunked upload: 25.7 % uploaded
+0690.617 (2) Ftp chunked upload: 26.7 % uploaded
+0690.673 (2) Ftp chunked upload: 27.6 % uploaded
+0690.726 (2) Ftp chunked upload: 28.5 % uploaded
+0690.806 (2) Ftp chunked upload: 29.4 % uploaded
+0690.861 (2) Ftp chunked upload: 30.3 % uploaded
+0690.915 (2) Ftp chunked upload: 31.3 % uploaded
+0690.970 (2) Ftp chunked upload: 32.2 % uploaded
+0691.034 (2) Ftp chunked upload: 33.1 % uploaded
+0691.095 (2) Ftp chunked upload: 34 % uploaded
+0691.158 (2) Ftp chunked upload: 34.9 % uploaded
+0691.220 (2) Ftp chunked upload: 35.8 % uploaded
+0691.274 (2) Ftp chunked upload: 36.8 % uploaded
+0691.340 (2) Ftp chunked upload: 37.7 % uploaded
+0691.397 (2) Ftp chunked upload: 38.6 % uploaded
+0691.459 (2) Ftp chunked upload: 39.5 % uploaded
+0691.515 (2) Ftp chunked upload: 40.4 % uploaded
+0691.569 (2) Ftp chunked upload: 41.4 % uploaded
+0691.632 (2) Ftp chunked upload: 42.3 % uploaded
+0691.692 (2) Ftp chunked upload: 43.2 % uploaded
+0691.749 (2) Ftp chunked upload: 44.1 % uploaded
+0691.804 (2) Ftp chunked upload: 45 % uploaded
+0691.865 (2) Ftp chunked upload: 46 % uploaded
+0691.924 (2) Ftp chunked upload: 46.9 % uploaded
+0691.981 (2) Ftp chunked upload: 47.8 % uploaded
+0692.048 (2) Ftp chunked upload: 48.7 % uploaded
+0692.108 (2) Ftp chunked upload: 49.6 % uploaded
+0692.162 (2) Ftp chunked upload: 50.6 % uploaded
+0692.220 (2) Ftp chunked upload: 51.5 % uploaded
+0692.284 (2) Ftp chunked upload: 52.4 % uploaded
+0692.339 (2) Ftp chunked upload: 53.3 % uploaded
+0692.395 (2) Ftp chunked upload: 54.2 % uploaded
+0692.450 (2) Ftp chunked upload: 55.1 % uploaded
+0692.511 (2) Ftp chunked upload: 56.1 % uploaded
+0692.569 (2) Ftp chunked upload: 57 % uploaded
+0692.627 (2) Ftp chunked upload: 57.9 % uploaded
+0692.684 (2) Ftp chunked upload: 58.8 % uploaded
+0692.798 (2) Ftp chunked upload: 59.7 % uploaded
+0692.857 (2) Ftp chunked upload: 60.7 % uploaded
+0692.943 (2) Ftp chunked upload: 61.6 % uploaded
+0693.017 (2) Ftp chunked upload: 62.5 % uploaded
+0693.092 (2) Ftp chunked upload: 63.4 % uploaded
+0693.154 (2) Ftp chunked upload: 64.3 % uploaded
+0693.211 (2) Ftp chunked upload: 65.3 % uploaded
+0693.286 (2) Ftp chunked upload: 66.2 % uploaded
+0693.345 (2) Ftp chunked upload: 67.1 % uploaded
+0693.403 (2) Ftp chunked upload: 68 % uploaded
+0693.462 (2) Ftp chunked upload: 68.9 % uploaded
+0693.516 (2) Ftp chunked upload: 69.9 % uploaded
+0693.573 (2) Ftp chunked upload: 70.8 % uploaded
+0693.635 (2) Ftp chunked upload: 71.7 % uploaded
+0693.689 (2) Ftp chunked upload: 72.6 % uploaded
+0693.793 (2) Ftp chunked upload: 73.5 % uploaded
+0693.853 (2) Ftp chunked upload: 74.4 % uploaded
+0693.906 (2) Ftp chunked upload: 75.4 % uploaded
+0693.980 (2) Ftp chunked upload: 76.3 % uploaded
+0694.043 (2) Ftp chunked upload: 77.2 % uploaded
+0694.097 (2) Ftp chunked upload: 78.1 % uploaded
+0694.161 (2) Ftp chunked upload: 79 % uploaded
+0694.215 (2) Ftp chunked upload: 80 % uploaded
+0694.283 (2) Ftp chunked upload: 80.9 % uploaded
+0694.339 (2) Ftp chunked upload: 81.8 % uploaded
+0694.395 (2) Ftp chunked upload: 82.7 % uploaded
+0694.465 (2) Ftp chunked upload: 83.6 % uploaded
+0694.522 (2) Ftp chunked upload: 84.6 % uploaded
+0694.583 (2) Ftp chunked upload: 85.5 % uploaded
+0694.650 (2) Ftp chunked upload: 86.4 % uploaded
+0694.703 (2) Ftp chunked upload: 87.3 % uploaded
+0694.765 (2) Ftp chunked upload: 88.2 % uploaded
+0694.826 (2) Ftp chunked upload: 89.2 % uploaded
+0694.885 (2) Ftp chunked upload: 90.1 % uploaded
+0694.952 (2) Ftp chunked upload: 91 % uploaded
+0695.016 (2) Ftp chunked upload: 91.9 % uploaded
+0695.076 (2) Ftp chunked upload: 92.8 % uploaded
+0695.143 (2) Ftp chunked upload: 93.7 % uploaded
+0695.203 (2) Ftp chunked upload: 94.7 % uploaded
+0695.264 (2) Ftp chunked upload: 95.6 % uploaded
+0695.324 (2) Ftp chunked upload: 96.5 % uploaded
+0695.383 (2) Ftp chunked upload: 97.4 % uploaded
+0695.437 (2) Ftp chunked upload: 98.3 % uploaded
+0695.496 (2) Ftp chunked upload: 99.3 % uploaded
+0695.567 (2) FTP: upload attempt successful (223227.6KB in 6.75s)
+0695.571 (2) Recording as successfully uploaded: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads4.zip
+0695.614 (2) Deleting local file: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-uploads4.zip: OK
+0695.620 (2) FTP: upload attempt: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-others.zip -> ftp://backup@115.24.161.46/ai.hebut.edu.cn/backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-others.zip
+0695.950 (2) Ftp chunked upload: 51.3 % uploaded
+0695.973 (2) FTP: upload attempt successful (1006.3KB in 0.35s)
+0695.976 (2) Recording as successfully uploaded: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-others.zip
+0695.986 (2) Deleting local file: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-others.zip: OK
+0695.993 (2) FTP: upload attempt: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db.gz -> ftp://backup@115.24.161.46/ai.hebut.edu.cn/backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db.gz
+0696.023 (2) Ftp chunked upload: 60.9 % uploaded
+0696.036 (2) FTP: upload attempt successful (847.7KB in 0.04s)
+0696.038 (2) Recording as successfully uploaded: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db.gz
+0696.044 (2) Deleting local file: backup_2019-06-21-1712_aihebuteducn_7e7c5589afe4-db.gz: OK
+0696.057 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=5, retain_db=5
+0696.060 (2) Number of backup sets in history: 6; groups (db): 1
+0696.063 (2) Examining (for databases) backup set with group_id=0, nonce=7e7c5589afe4, datestamp=1561108372 (Jun 21 2019 09:12:52)
+0696.065 (2) This backup set is the backup set just made, so will not be deleted.
+0696.065 (2) Examining (for databases) backup set with group_id=0, nonce=b6ff10801423, datestamp=1560503583 (Jun 14 2019 09:13:03)
+0696.065 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0696.070 (2) Examining (for databases) backup set with group_id=0, nonce=422a444af5cd, datestamp=1559898800 (Jun 07 2019 09:13:20)
+0696.070 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0696.076 (2) Examining (for databases) backup set with group_id=0, nonce=70268699a874, datestamp=1559295998 (May 31 2019 09:46:38)
+0696.076 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0696.076 (2) Examining (for databases) backup set with group_id=0, nonce=fb1f9bfe45ae, datestamp=1558689208 (May 24 2019 09:13:28)
+0696.076 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0696.076 (2) Examining (for databases) backup set with group_id=0, nonce=e40f6d14155a, datestamp=1558417191 (May 21 2019 05:39:51)
+0696.076 (2) 1558417191: db: this set includes a database (backup_2019-05-21-1339_aihebuteducn_e40f6d14155a-db.gz); db count is now 5
+0696.076 (2) 1558417191: db: over retain limit (5); will delete this database
+0696.077 (2) Delete file: backup_2019-05-21-1339_aihebuteducn_e40f6d14155a-db.gz, service=ftp
+0696.088 (2) FTP: delete: succeeded (ai.hebut.edu.cn/backup_2019-05-21-1339_aihebuteducn_e40f6d14155a-db.gz)
+0696.104 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+0696.111 (2) Number of backup sets in history: 6; groups (files): 1
+0696.114 (2) Examining (for files) backup set with nonce=7e7c5589afe4, datestamp=1561108372 (Jun 21 2019 09:12:52)
+0696.114 (2) This backup set is the backup set just made, so will not be deleted.
+0696.118 (2) This backup set is the backup set just made, so will not be deleted.
+0696.118 (2) This backup set is the backup set just made, so will not be deleted.
+0696.118 (2) This backup set is the backup set just made, so will not be deleted.
+0696.119 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0696.121 (2) Examining (for files) backup set with nonce=b6ff10801423, datestamp=1560503583 (Jun 14 2019 09:13:03)
+0696.121 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0696.121 (2) Examining (for files) backup set with nonce=422a444af5cd, datestamp=1559898800 (Jun 07 2019 09:13:20)
+0696.121 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0696.121 (2) Examining (for files) backup set with nonce=70268699a874, datestamp=1559295998 (May 31 2019 09:46:38)
+0696.122 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0696.122 (2) Examining (for files) backup set with nonce=fb1f9bfe45ae, datestamp=1558689208 (May 24 2019 09:13:28)
+0696.122 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0696.122 (2) Examining (for files) backup set with nonce=e40f6d14155a, datestamp=1558417191 (May 21 2019 05:39:51)
+0696.122 (2) plugins: over retain limit (5); will delete this file entity
+0696.122 (2) themes: over retain limit (5); will delete this file entity
+0696.122 (2) uploads: over retain limit (5); will delete this file entity
+0696.122 (2) others: over retain limit (5); will delete this file entity
+0696.122 (2) Delete file: backup_2019-05-21-1339_aihebuteducn_e40f6d14155a-plugins.zip, service=ftp
+0696.131 (2) Delete file: backup_2019-05-21-1339_aihebuteducn_e40f6d14155a-themes.zip, service=ftp
+0696.134 (2) Delete file: backup_2019-05-21-1339_aihebuteducn_e40f6d14155a-uploads.zip, service=ftp
+0696.137 (2) Delete file: backup_2019-05-21-1339_aihebuteducn_e40f6d14155a-uploads2.zip, service=ftp
+0696.140 (2) Delete file: backup_2019-05-21-1339_aihebuteducn_e40f6d14155a-uploads3.zip, service=ftp
+0696.146 (2) Delete file: backup_2019-05-21-1339_aihebuteducn_e40f6d14155a-uploads4.zip, service=ftp
+0696.149 (2) Delete file: backup_2019-05-21-1339_aihebuteducn_e40f6d14155a-others.zip, service=ftp
+0696.163 (2) FTP: delete: succeeded (ai.hebut.edu.cn/backup_2019-05-21-1339_aihebuteducn_e40f6d14155a-plugins.zip)
+0696.167 (2) FTP: delete: succeeded (ai.hebut.edu.cn/backup_2019-05-21-1339_aihebuteducn_e40f6d14155a-themes.zip)
+0696.177 (2) FTP: delete: succeeded (ai.hebut.edu.cn/backup_2019-05-21-1339_aihebuteducn_e40f6d14155a-uploads.zip)
+0696.182 (2) FTP: delete: succeeded (ai.hebut.edu.cn/backup_2019-05-21-1339_aihebuteducn_e40f6d14155a-uploads2.zip)
+0696.213 (2) FTP: delete: succeeded (ai.hebut.edu.cn/backup_2019-05-21-1339_aihebuteducn_e40f6d14155a-uploads3.zip)
+0696.218 (2) FTP: delete: succeeded (ai.hebut.edu.cn/backup_2019-05-21-1339_aihebuteducn_e40f6d14155a-uploads4.zip)
+0696.221 (2) FTP: delete: succeeded (ai.hebut.edu.cn/backup_2019-05-21-1339_aihebuteducn_e40f6d14155a-others.zip)
+0696.227 (2) This backup set is now empty; will remove from history
+0696.233 (2) Deleting log file (log.e40f6d14155a.txt)
+0696.248 (2) Retain: saving new backup history (sets now: 5) and finishing retain operation
+0696.269 (2) Resume backup (7e7c5589afe4, 2): finish run
+0696.279 (2) There were no errors in the uploads, so the 'resume' event (3) is being unscheduled
+0696.300 (2) The backup apparently succeeded and is now complete
+0696.302 (2) Fetching RSS news feed
+0706.987 (2) Fetched RSS news feed; result is a: WP_Error
+0707.155 (2) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: zhz@h...
+0707.194 (2) PHP event: code E_NOTICE: Use of undefined constant ’管理员’ - assumed '’管理员’' (line 304, wp-content/themes/AI2018/functions.php)
+0707.432 (2) 备份成功完成
