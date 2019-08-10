@@ -4931,7 +4931,7 @@ function et_pb_update_page_settings( $post_id, $settings ) {
 					absint( $fields[ $setting_key ]['range_settings']['max'] ) : -1;
 
 				if ( $setting_value < $range_min || $range_max < $setting_value ) {
-					continue;
+					break;
 				}
 
 				// set default flag if needed

@@ -26,10 +26,10 @@ define('DB_NAME', 'see');
 define('DB_USER', 'root');
 
 /** MySQL数据库密码 */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'chuhang');
 
 /** MySQL主机 */
-define('DB_HOST', 'localhost');
+define('DB_HOST', '127.0.0.1');
 
 /** 创建数据表时默认的文字编码 */
 define('DB_CHARSET', 'utf8');
