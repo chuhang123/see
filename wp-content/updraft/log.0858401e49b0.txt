@@ -1,0 +1,331 @@
+0000.000 (0) Opened log file at time: Mon, 19 Aug 2019 00:57:55 +0000 on http://see.hebut.edu.cn
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 5.2.2 PHP: 7.3.0 (apache2handler, Linux chuhang 4.15.0-58-generic #64-Ubuntu SMP Tue Aug 6 11:12:41 UTC 2019 x86_64) MySQL: 8.0.13 WPLANG: zh_CN Server: Apache/2.4.37 (Unix) OpenSSL/1.0.2q PHP/7.3.0 mod_perl/2.0.8-dev Perl/v5.16.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 41.7M | 44.5M) multisite: N openssl: OpenSSL 1.0.2q  20 Nov 2018 mcrypt: N LANG: zh_CN.UTF-8 ZipArchive::addFile: Y
+0000.010 (0) Free space on disk containing Updraft's temporary directory: 17677.7 MB
+0000.015 (0) Deleting old log file: log.0c1e665291d9.txt
+0000.020 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.023 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.034 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1565402120, seconds_ago=774155)
+0000.047 (0) Set semaphore last lock (fd) time to 2019-08-19 00:57:55
+0000.050 (0) Semaphore lock (fd) complete
+0000.062 (0) Backup run: resumption=0, nonce=0858401e49b0, file_nonce=0858401e49b0 begun at=1566176275 (0s ago), job type=backup
+0000.070 (0) Scheduling a resumption (1) after 300 seconds (1566176575) in case this run gets aborted
+0000.085 (0) Checking if we have a zip executable available
+0000.089 (0) Testing: /usr/bin/zip
+0000.101 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.104 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.108 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.111 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.115 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.122 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.126 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.138 (0) Working binary zip found: /usr/bin/zip
+0000.146 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.150 (0) Creation of backups of directories: beginning
+0000.163 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.365 (0) Total entities for the zip file: 951 directories, 5429 files (0 skipped as non-modified), 83.9 MB
+0000.388 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.393 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.398 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.403 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.409 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.412 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.2 MB, 5429 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.919 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: size is now: 3.30 MB
+0000.928 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 600 files added (on-disk size: 3340.8 KB)
+0000.933 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 700 files added (on-disk size: 3340.8 KB)
+0000.938 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 800 files added (on-disk size: 3340.8 KB)
+0000.944 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 900 files added (on-disk size: 3340.8 KB)
+0000.949 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 1000 files added (on-disk size: 3340.8 KB)
+0000.952 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.8 MB, 5429 files batched, 501 (1002) added so far); re-opening (prior size: 3340.8 KB)
+0001.257 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: size is now: 4.60 MB
+0001.298 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 1100 files added (on-disk size: 4720.7 KB)
+0001.303 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 1200 files added (on-disk size: 4720.7 KB)
+0001.309 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 1300 files added (on-disk size: 4720.7 KB)
+0001.313 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 1400 files added (on-disk size: 4720.7 KB)
+0001.318 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 1500 files added (on-disk size: 4720.7 KB)
+0001.322 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4 MB, 5429 files batched, 501 (1503) added so far); re-opening (prior size: 4720.7 KB)
+0001.663 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: size is now: 6.10 MB
+0001.749 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 1600 files added (on-disk size: 6235.6 KB)
+0001.754 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 1700 files added (on-disk size: 6235.6 KB)
+0001.758 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 1800 files added (on-disk size: 6235.6 KB)
+0001.764 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 1900 files added (on-disk size: 6235.6 KB)
+0001.770 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 2000 files added (on-disk size: 6235.6 KB)
+0001.773 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.2 MB, 5429 files batched, 501 (2004) added so far); re-opening (prior size: 6235.6 KB)
+0002.432 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: size is now: 9.50 MB
+0002.445 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 2100 files added (on-disk size: 9746.8 KB)
+0002.450 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 2200 files added (on-disk size: 9746.8 KB)
+0002.455 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 2300 files added (on-disk size: 9746.8 KB)
+0002.461 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 2400 files added (on-disk size: 9746.8 KB)
+0002.465 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 2500 files added (on-disk size: 9746.8 KB)
+0002.468 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.8 MB, 5429 files batched, 501 (2505) added so far); re-opening (prior size: 9746.8 KB)
+0002.942 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: size is now: 12.50 MB
+0002.976 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 2600 files added (on-disk size: 12815 KB)
+0002.981 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 2700 files added (on-disk size: 12815 KB)
+0002.986 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 2800 files added (on-disk size: 12815 KB)
+0002.992 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 2900 files added (on-disk size: 12815 KB)
+0002.997 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 3000 files added (on-disk size: 12815 KB)
+0003.000 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.8 MB, 5429 files batched, 501 (3006) added so far); re-opening (prior size: 12815 KB)
+0003.259 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 3100 files added (on-disk size: 13553.1 KB)
+0003.264 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 3200 files added (on-disk size: 13553.1 KB)
+0003.269 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 3300 files added (on-disk size: 13553.1 KB)
+0003.274 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 3400 files added (on-disk size: 13553.1 KB)
+0003.279 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 3500 files added (on-disk size: 13553.1 KB)
+0003.283 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16.1 MB, 5429 files batched, 501 (3507) added so far); re-opening (prior size: 13553.1 KB)
+0004.245 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: size is now: 17.90 MB
+0004.356 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 3600 files added (on-disk size: 18305.1 KB)
+0004.361 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 3700 files added (on-disk size: 18305.1 KB)
+0004.367 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 3800 files added (on-disk size: 18305.1 KB)
+0004.372 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 3900 files added (on-disk size: 18305.1 KB)
+0004.377 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 4000 files added (on-disk size: 18305.1 KB)
+0004.380 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.5 MB, 5429 files batched, 501 (4008) added so far); re-opening (prior size: 18305.1 KB)
+0004.885 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 4100 files added (on-disk size: 20726.9 KB)
+0004.890 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 4200 files added (on-disk size: 20726.9 KB)
+0004.896 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 4300 files added (on-disk size: 20726.9 KB)
+0004.902 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 4400 files added (on-disk size: 20726.9 KB)
+0004.907 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 4500 files added (on-disk size: 20726.9 KB)
+0004.910 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.7 MB, 5429 files batched, 501 (4509) added so far); re-opening (prior size: 20726.9 KB)
+0005.632 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: size is now: 25.50 MB
+0005.684 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 4600 files added (on-disk size: 26122.5 KB)
+0005.689 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 4700 files added (on-disk size: 26122.5 KB)
+0005.694 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 4800 files added (on-disk size: 26122.5 KB)
+0005.700 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 4900 files added (on-disk size: 26122.5 KB)
+0005.705 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 5000 files added (on-disk size: 26122.5 KB)
+0005.719 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.2 MB, 5429 files batched, 501 (5010) added so far); re-opening (prior size: 26122.5 KB)
+0006.490 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 5100 files added (on-disk size: 29917.4 KB)
+0006.496 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 5200 files added (on-disk size: 29917.4 KB)
+0006.502 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 5300 files added (on-disk size: 29917.4 KB)
+0006.507 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip.tmp: 5400 files added (on-disk size: 29917.4 KB)
+0007.249 (0) Created plugins zip (0) - 31694 KB in 7.1 s (4475.4 KB/s) (sha1: 91d7683b96c7e2f22690353f531a7d005365e95b, sha256: acbd567fa2e41e5361f57253ba3dbb7b751c1d7171ea3e9b66925b5ba3cfebcf)
+0007.256 (0) Beginning creation of dump of themes (split every: 400 MB)
+0007.277 (0) Total entities for the zip file: 59 directories, 521 files (0 skipped as non-modified), 21.8 MB
+0007.286 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.291 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0007.297 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0007.302 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0007.307 (0) Zip: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0007.311 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (21.7 MB, 521 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0008.479 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-themes.zip.tmp: size is now: 6.00 MB
+0008.701 (0) Created themes zip (0) - 6188.1 KB in 1.4 s (4294 KB/s) (sha1: 032fb3ccf6a15ef07f99274105b71f7803ad711e, sha256: 653df6d95b1ca53b192ff0a5e6f21d9d258c7877b78933ea41c4a3437a908bb9)
+0008.708 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0008.712 (0) Looking for candidates to backup in: /opt/lampp/htdocs/wp-content/uploads
+0008.715 (0) finding files: 2019: adding to list (1)
+0008.719 (0) finding files: 2018: adding to list (2)
+0008.722 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0008.732 (0) Total entities for the zip file: 5 directories, 1 files (0 skipped as non-modified), 0.1 MB
+0008.740 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-uploads.zip.tmp: size is now: 0.10 MB
+0008.758 (0) Created uploads zip (0) - 135.8 KB in 0 s (4253 KB/s) (sha1: 4ed57bac47571b424d006301c14819d7f2ac1b91, sha256: a4c3818e2f71d105c729953998f7a566ffc48f9d30e94d1632d29d82c842317d)
+0008.767 (0) Beginning backup of other directories found in the content directory (index: 0)
+0008.771 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0008.774 (0) Looking for candidates to backup in: /opt/lampp/htdocs/wp-content
+0008.778 (0) finding files: upgrade: skipping: excluded by options
+0008.782 (0) finding files: themes: skipping: this is the themes directory
+0008.786 (0) finding files: wp-cache-config.php: adding to list (1)
+0008.790 (0) finding files: plugins: skipping: this is the plugins directory
+0008.793 (0) finding files: updraft: skipping: this is the updraft directory
+0008.796 (0) finding files: uploads: skipping: this is the uploads directory
+0008.800 (0) finding files: languages: adding to list (2)
+0008.803 (0) finding files: index.php: adding to list (3)
+0008.811 (0) Total entities for the zip file: 3 directories, 45 files (0 skipped as non-modified), 3.4 MB
+0009.056 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-others.zip.tmp: size is now: 1.10 MB
+0009.096 (0) Created others zip (0) - 1079 KB in 0.3 s (3745.5 KB/s) (sha1: 20402dd32b7feb9e8459fb57ff7c9a02321860dc, sha256: 7a4ddf699d914a0fc176acf96e23b3c8d515e33a98384ab09d075a4db9a967da)
+0009.111 (0) Saving backup status to database (elements: 8)
+0009.122 (0) Beginning creation of database dump (WordPress DB)
+0009.131 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0009.141 (0) Binary mysqldump: error (code: 1)
+0009.162 (0) Table wp_options: Total expected rows (approximate): 404
+0009.181 (0) Table wp_options: Total rows added: 412 in 0.01 seconds
+0009.185 (0) Table wp_options: finishing file (backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_options.table.gz - 45.5 KB)
+0009.202 (0) Table wp_users: Total expected rows (approximate): 4
+0009.208 (0) Table wp_users: Total rows added: 4 in 0.00 seconds
+0009.213 (0) Table wp_users: finishing file (backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_users.table.gz - 0.9 KB)
+0009.227 (0) Table wp_usermeta: Total expected rows (approximate): 133
+0009.233 (0) Table wp_usermeta: Total rows added: 142 in 0.00 seconds
+0009.237 (0) Table wp_usermeta: finishing file (backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_usermeta.table.gz - 2.9 KB)
+0009.253 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0009.258 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0009.262 (0) Table wp_commentmeta: finishing file (backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0009.278 (0) Table wp_comments: Total expected rows (approximate): 130
+0009.289 (0) Table wp_comments: Total rows added: 130 in 0.01 seconds
+0009.293 (0) Table wp_comments: finishing file (backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_comments.table.gz - 6.6 KB)
+0009.310 (0) Table wp_links: Total expected rows (approximate): 0
+0009.317 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0009.321 (0) Table wp_links: finishing file (backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_links.table.gz - 0.4 KB)
+0009.335 (0) Table wp_postmeta: Total expected rows (approximate): 11170
+0009.502 (0) Table wp_postmeta: Total rows added: 11717 in 0.16 seconds
+0009.510 (0) Table wp_postmeta: finishing file (backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_postmeta.table.gz - 189 KB)
+0009.530 (0) Table wp_posts: Total expected rows (approximate): 2086
+0009.764 (0) Table wp_posts: Total rows added: 2068 in 0.23 seconds
+0009.788 (0) Table wp_posts: finishing file (backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_posts.table.gz - 844 KB)
+0009.803 (0) Table wp_term_relationships: Total expected rows (approximate): 611
+0009.810 (0) Table wp_term_relationships: Total rows added: 606 in 0.00 seconds
+0009.815 (0) Table wp_term_relationships: finishing file (backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_term_relationships.table.gz - 2.1 KB)
+0009.830 (0) Table wp_term_taxonomy: Total expected rows (approximate): 121
+0009.838 (0) Table wp_term_taxonomy: Total rows added: 120 in 0.00 seconds
+0009.842 (0) Table wp_term_taxonomy: finishing file (backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_term_taxonomy.table.gz - 1.4 KB)
+0009.858 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0009.867 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0009.870 (0) Table wp_termmeta: finishing file (backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_termmeta.table.gz - 0.4 KB)
+0009.885 (0) Table wp_terms: Total expected rows (approximate): 116
+0009.891 (0) Table wp_terms: Total rows added: 120 in 0.00 seconds
+0009.896 (0) Table wp_terms: finishing file (backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_terms.table.gz - 2.4 KB)
+0009.913 (0) Table wp_1_department_hours: Total expected rows (approximate): 45
+0009.922 (0) Table wp_1_department_hours: Total rows added: 45 in 0.01 seconds
+0009.928 (0) Table wp_1_department_hours: finishing file (backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_1_department_hours.table.gz - 1.3 KB)
+0009.947 (0) Table wp_dynamic_widgets: Total expected rows (approximate): 146
+0009.955 (0) Table wp_dynamic_widgets: Total rows added: 146 in 0.00 seconds
+0009.960 (0) Table wp_dynamic_widgets: finishing file (backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_dynamic_widgets.table.gz - 1.3 KB)
+0009.975 (0) Table wp_realmedialibrary: Total expected rows (approximate): 20
+0009.983 (0) Table wp_realmedialibrary: Total rows added: 20 in 0.00 seconds
+0009.988 (0) Table wp_realmedialibrary: finishing file (backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_realmedialibrary.table.gz - 1.2 KB)
+0010.003 (0) Table wp_realmedialibrary_debug: Total expected rows (approximate): 0
+0010.010 (0) Table wp_realmedialibrary_debug: Total rows added: 0 in 0.00 seconds
+0010.013 (0) Table wp_realmedialibrary_debug: finishing file (backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_realmedialibrary_debug.table.gz - 0.3 KB)
+0010.030 (0) Table wp_realmedialibrary_meta: Total expected rows (approximate): 0
+0010.037 (0) Table wp_realmedialibrary_meta: Total rows added: 0 in 0.00 seconds
+0010.041 (0) Table wp_realmedialibrary_meta: finishing file (backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_realmedialibrary_meta.table.gz - 0.4 KB)
+0010.057 (0) Table wp_realmedialibrary_posts: Total expected rows (approximate): 571
+0010.069 (0) Table wp_realmedialibrary_posts: Total rows added: 571 in 0.01 seconds
+0010.073 (0) Table wp_realmedialibrary_posts: finishing file (backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_realmedialibrary_posts.table.gz - 2.1 KB)
+0010.086 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_options.table.gz (1/18): adding to final database dump
+0010.102 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_users.table.gz (2/18): adding to final database dump
+0010.108 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_usermeta.table.gz (3/18): adding to final database dump
+0010.113 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_commentmeta.table.gz (4/18): adding to final database dump
+0010.119 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_comments.table.gz (5/18): adding to final database dump
+0010.124 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_links.table.gz (6/18): adding to final database dump
+0010.128 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_postmeta.table.gz (7/18): adding to final database dump
+0010.193 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_posts.table.gz (8/18): adding to final database dump
+0010.351 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_term_relationships.table.gz (9/18): adding to final database dump
+0010.370 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_term_taxonomy.table.gz (10/18): adding to final database dump
+0010.375 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_termmeta.table.gz (11/18): adding to final database dump
+0010.379 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_terms.table.gz (12/18): adding to final database dump
+0010.384 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_1_department_hours.table.gz (13/18): adding to final database dump
+0010.389 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_dynamic_widgets.table.gz (14/18): adding to final database dump
+0010.393 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_realmedialibrary.table.gz (15/18): adding to final database dump
+0010.397 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_realmedialibrary_debug.table.gz (16/18): adding to final database dump
+0010.401 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_realmedialibrary_meta.table.gz (17/18): adding to final database dump
+0010.405 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db-table-wp_realmedialibrary_posts.table.gz (18/18): adding to final database dump
+0010.411 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db.gz: finished writing out complete database file (1072 KB)
+0010.443 (0) Total database tables backed up: 18 (backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db.gz, size: 1126353, sha256)
+0010.465 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0010.468 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0010.472 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0010.475 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-others.zip: others: This file has not yet been successfully uploaded: will queue
+0010.479 (0) backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db.gz: db: This file has not yet been successfully uploaded: will queue
+0010.482 (0) Saving backup history. Total backup size: 39.3 MB
+0010.492 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0010.504 (0) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0010.508 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-975962e60e96d791513592e27e579e10)
+0010.599 (0) FTP: upload attempt: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip -> ftp://backup@115.24.161.46/ai.hebut.edu.cn/backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip
+0010.678 (0) Ftp chunked upload: 1.6 % uploaded
+0010.744 (0) Ftp chunked upload: 3.3 % uploaded
+0010.810 (0) Ftp chunked upload: 4.9 % uploaded
+0010.876 (0) Ftp chunked upload: 6.5 % uploaded
+0010.992 (0) Ftp chunked upload: 9.8 % uploaded
+0011.110 (0) Ftp chunked upload: 13 % uploaded
+0011.330 (0) Ftp chunked upload: 19.5 % uploaded
+0011.552 (0) Ftp chunked upload: 25.9 % uploaded
+0011.771 (0) Ftp chunked upload: 32.4 % uploaded
+0011.991 (0) Ftp chunked upload: 38.9 % uploaded
+0012.212 (0) Ftp chunked upload: 45.4 % uploaded
+0012.431 (0) Ftp chunked upload: 51.8 % uploaded
+0012.652 (0) Ftp chunked upload: 58.3 % uploaded
+0012.872 (0) Ftp chunked upload: 64.8 % uploaded
+0013.093 (0) Ftp chunked upload: 71.3 % uploaded
+0013.312 (0) Ftp chunked upload: 77.7 % uploaded
+0013.532 (0) Ftp chunked upload: 84.2 % uploaded
+0013.752 (0) Ftp chunked upload: 90.7 % uploaded
+0013.973 (0) Ftp chunked upload: 97.1 % uploaded
+0014.062 (0) FTP: upload attempt successful (31694KB in 3.44s)
+0014.070 (0) Recording as successfully uploaded: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip
+0014.085 (0) Deleting local file: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-plugins.zip: OK
+0014.089 (0) FTP: upload attempt: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-themes.zip -> ftp://backup@115.24.161.46/ai.hebut.edu.cn/backup_2019-08-19-0857_seehebuteducn_0858401e49b0-themes.zip
+0014.171 (0) Ftp chunked upload: 8.3 % uploaded
+0014.237 (0) Ftp chunked upload: 16.7 % uploaded
+0014.304 (0) Ftp chunked upload: 25 % uploaded
+0014.370 (0) Ftp chunked upload: 33.3 % uploaded
+0014.488 (0) Ftp chunked upload: 50 % uploaded
+0014.605 (0) Ftp chunked upload: 66.6 % uploaded
+0014.826 (0) Ftp chunked upload: 99.7 % uploaded
+0014.837 (0) FTP: upload attempt successful (6188.1KB in 0.74s)
+0014.841 (0) Recording as successfully uploaded: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-themes.zip
+0014.850 (0) Deleting local file: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-themes.zip: OK
+0014.854 (0) FTP: upload attempt: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-uploads.zip -> ftp://backup@115.24.161.46/ai.hebut.edu.cn/backup_2019-08-19-0857_seehebuteducn_0858401e49b0-uploads.zip
+0014.873 (0) FTP: upload attempt successful (135.8KB in 0.01s)
+0014.879 (0) Recording as successfully uploaded: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-uploads.zip
+0014.887 (0) Deleting local file: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-uploads.zip: OK
+0014.891 (0) FTP: upload attempt: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-others.zip -> ftp://backup@115.24.161.46/ai.hebut.edu.cn/backup_2019-08-19-0857_seehebuteducn_0858401e49b0-others.zip
+0014.952 (0) Ftp chunked upload: 47.8 % uploaded
+0015.017 (0) Ftp chunked upload: 95.6 % uploaded
+0015.030 (0) FTP: upload attempt successful (1079KB in 0.14s)
+0015.034 (0) Recording as successfully uploaded: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-others.zip
+0015.043 (0) Deleting local file: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-others.zip: OK
+0015.047 (0) FTP: upload attempt: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db.gz -> ftp://backup@115.24.161.46/ai.hebut.edu.cn/backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db.gz
+0015.109 (0) Ftp chunked upload: 46.9 % uploaded
+0015.174 (0) Ftp chunked upload: 93.8 % uploaded
+0015.190 (0) FTP: upload attempt successful (1100KB in 0.14s)
+0015.194 (0) Recording as successfully uploaded: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db.gz
+0015.203 (0) Deleting local file: backup_2019-08-19-0857_seehebuteducn_0858401e49b0-db.gz: OK
+0015.211 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=5, retain_db=5
+0015.215 (0) Number of backup sets in history: 6; groups (db): 1
+0015.218 (0) Examining (for databases) backup set with group_id=0, nonce=0858401e49b0, datestamp=1566176275 (Aug 19 2019 00:57:55)
+0015.222 (0) This backup set is the backup set just made, so will not be deleted.
+0015.222 (0) Examining (for databases) backup set with group_id=0, nonce=3e5f20ee4ae9, datestamp=1565402120 (Aug 10 2019 01:55:20)
+0015.222 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0015.226 (0) Examining (for databases) backup set with group_id=0, nonce=8d68b3b55ea2, datestamp=1563527579 (Jul 19 2019 09:12:59)
+0015.226 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0015.226 (0) Examining (for databases) backup set with group_id=0, nonce=c7ca6a57a107, datestamp=1562922756 (Jul 12 2019 09:12:36)
+0015.226 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0015.226 (0) Examining (for databases) backup set with group_id=0, nonce=0c1e665291d9, datestamp=1562318066 (Jul 05 2019 09:14:26)
+0015.226 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0015.226 (0) Examining (for databases) backup set with group_id=0, nonce=8538c4059ad3, datestamp=1561713165 (Jun 28 2019 09:12:45)
+0015.227 (0) 1561713165: db: this set includes a database (backup_2019-06-28-1712_aihebuteducn_8538c4059ad3-db.gz); db count is now 5
+0015.227 (0) 1561713165: db: over retain limit (5); will delete this database
+0015.227 (0) Delete file: backup_2019-06-28-1712_aihebuteducn_8538c4059ad3-db.gz, service=ftp
+0015.231 (0) FTP: delete: failed (ai.hebut.edu.cn/backup_2019-06-28-1712_aihebuteducn_8538c4059ad3-db.gz)
+0015.238 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0015.242 (0) Number of backup sets in history: 6; groups (files): 1
+0015.246 (0) Examining (for files) backup set with nonce=0858401e49b0, datestamp=1566176275 (Aug 19 2019 00:57:55)
+0015.246 (0) This backup set is the backup set just made, so will not be deleted.
+0015.250 (0) This backup set is the backup set just made, so will not be deleted.
+0015.251 (0) This backup set is the backup set just made, so will not be deleted.
+0015.251 (0) This backup set is the backup set just made, so will not be deleted.
+0015.251 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0015.255 (0) Examining (for files) backup set with nonce=3e5f20ee4ae9, datestamp=1565402120 (Aug 10 2019 01:55:20)
+0015.255 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0015.255 (0) Examining (for files) backup set with nonce=8d68b3b55ea2, datestamp=1563527579 (Jul 19 2019 09:12:59)
+0015.255 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0015.255 (0) Examining (for files) backup set with nonce=c7ca6a57a107, datestamp=1562922756 (Jul 12 2019 09:12:36)
+0015.255 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0015.255 (0) Examining (for files) backup set with nonce=0c1e665291d9, datestamp=1562318066 (Jul 05 2019 09:14:26)
+0015.255 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0015.255 (0) Examining (for files) backup set with nonce=8538c4059ad3, datestamp=1561713165 (Jun 28 2019 09:12:45)
+0015.255 (0) plugins: over retain limit (5); will delete this file entity
+0015.255 (0) themes: over retain limit (5); will delete this file entity
+0015.255 (0) uploads: over retain limit (5); will delete this file entity
+0015.255 (0) others: over retain limit (5); will delete this file entity
+0015.255 (0) Delete file: backup_2019-06-28-1712_aihebuteducn_8538c4059ad3-plugins.zip, service=ftp
+0015.258 (0) Delete file: backup_2019-06-28-1712_aihebuteducn_8538c4059ad3-themes.zip, service=ftp
+0015.262 (0) Delete file: backup_2019-06-28-1712_aihebuteducn_8538c4059ad3-uploads.zip, service=ftp
+0015.267 (0) Delete file: backup_2019-06-28-1712_aihebuteducn_8538c4059ad3-uploads2.zip, service=ftp
+0015.270 (0) Delete file: backup_2019-06-28-1712_aihebuteducn_8538c4059ad3-uploads3.zip, service=ftp
+0015.274 (0) Delete file: backup_2019-06-28-1712_aihebuteducn_8538c4059ad3-uploads4.zip, service=ftp
+0015.278 (0) Delete file: backup_2019-06-28-1712_aihebuteducn_8538c4059ad3-others.zip, service=ftp
+0015.282 (0) FTP: delete: failed (ai.hebut.edu.cn/backup_2019-06-28-1712_aihebuteducn_8538c4059ad3-plugins.zip)
+0015.286 (0) FTP: delete: failed (ai.hebut.edu.cn/backup_2019-06-28-1712_aihebuteducn_8538c4059ad3-themes.zip)
+0015.291 (0) FTP: delete: failed (ai.hebut.edu.cn/backup_2019-06-28-1712_aihebuteducn_8538c4059ad3-uploads.zip)
+0015.294 (0) FTP: delete: failed (ai.hebut.edu.cn/backup_2019-06-28-1712_aihebuteducn_8538c4059ad3-uploads2.zip)
+0015.298 (0) FTP: delete: failed (ai.hebut.edu.cn/backup_2019-06-28-1712_aihebuteducn_8538c4059ad3-uploads3.zip)
+0015.303 (0) FTP: delete: failed (ai.hebut.edu.cn/backup_2019-06-28-1712_aihebuteducn_8538c4059ad3-uploads4.zip)
+0015.307 (0) FTP: delete: failed (ai.hebut.edu.cn/backup_2019-06-28-1712_aihebuteducn_8538c4059ad3-others.zip)
+0015.315 (0) This backup set is now empty; will remove from history
+0015.318 (0) Corresponding log file (log.8538c4059ad3.txt) not found - must have already been deleted
+0015.322 (0) Retain: saving new backup history (sets now: 5) and finishing retain operation
+0015.337 (0) Resume backup (0858401e49b0, 0): finish run
+0015.348 (0) Decremented the semaphore (fd) by 1
+0015.355 (0) Semaphore (fd) unlocked
+0015.358 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0015.371 (0) The backup apparently succeeded and is now complete
+0015.374 (0) Fetching RSS news feed
+0016.054 (0) Fetched RSS news feed; result is a: WP_Error
+0016.165 (0) Sending email ('文件和数据库 (完全备份)') report (attachments: 0, size: 0 KB) to: zhz@h...
+0016.179 (0) PHP event: code E_WARNING: Use of undefined constant ’管理员’ - assumed '’管理员’' (this will throw an Error in a future version of PHP) (line 304, wp-content/themes/AI2018/functions.php)
+0016.188 (0) 备份显然是成功的，现在已经完成了。
